@@ -1,0 +1,8 @@
+This application allows viewing and printing of PC Stitch Pattern Viewer files with a pvf extension.
+
+These files can be purchased from www.patternsonline.com
+
+
+This application uses KDE Frameworks and Qt5.  It also uses the poppler library, poppler.freedesktop.org,
+and the poppler-qt5 interface library for rendering the PDF.
+
