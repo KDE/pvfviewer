@@ -1,0 +1,51 @@
+<?xml version = '1.0'?>
+    <!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+    <!ENTITY pvfViewer '<application>pvfViewer</application>'>
+    <!ENTITY % addindex "IGNORE">
+    <!ENTITY % English "INCLUDE">
+    <!ENTITY introduction SYSTEM "introduction.docbook">
+    <!ENTITY ui SYSTEM "ui.docbook">
+    <!ENTITY commands SYSTEM "commands.docbook">
+    <!ENTITY credits SYSTEM "credits.docbook">
+    ]>
+
+<book lang="&language;">
+    <bookinfo>
+        <title>The &pvfViewer; Handbook</title>
+        <authorgroup>
+            <author>
+                <firstname>Stephen</firstname>
+                <othername>P.</othername>
+                <surname>Allewell</surname>
+                <affiliation><address><email>steve.allewell@gmail.com</email></address></affiliation>
+            </author>
+            <!-- TRANS:ROLES_OF_TRANSLATORS -->
+        </authorgroup>
+        <copyright>
+            <year>2020</year>
+            <holder>Stephen P. Allewell</holder>
+        </copyright>
+        <legalnotice>&FDLNotice;</legalnotice>
+        <date>2020-03-10</date>
+        <releaseinfo>pvfViewer 0.1.0</releaseinfo>
+        <abstract>
+            <para>
+                &pvfViewer; is an application to allow opening and printing of PC Stitch Pattern Viewer files.
+            </para>
+        </abstract>
+        <keywordset>
+            <keyword>KDE</keyword>
+            <keyword>Stitching</keyword>
+            <keyword>Cross</keyword>
+            <keyword>Stitch</keyword>
+            <keyword>Pattern</keyword>
+        </keywordset>
+    </bookinfo>
+
+    &introduction;
+    &ui;
+    &commands;
+    &credits;
+
+    &documentation.index;
+</book>

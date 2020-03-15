@@ -1,0 +1,15 @@
+<chapter id="introduction" >
+    <title>Introduction</title>
+    <para>
+        &pvfViewer; is used to open, view, and print pattern files using the PC Stitch Pattern Viewer
+        format.  These files can be obtained from the <ulink url="http://www.patternsonline.com">PatternsOnline</ulink> website.
+    </para>
+    <para>
+        Please report any problems or feature requests to the &pvfViewer; KDE mailing list pvfviewer@kde.org,
+        you can subscribe <ulink url="http://mail.kde.org/mailman/listinfo/pvfviewer">here</ulink> or
+        the KDE bug tracking system at <ulink url="http://bugs.kde.org/">http://bugs.kde.org/</ulink>.
+    </para>
+    <para>
+        The pvfViewer home page is at <ulink url="http://userbase.kde.org/pvfViewer">http://userbase.kde.org/pvfViewer</ulink>
+    </para>
+</chapter>

@@ -1,0 +1,44 @@
+<chapter id="commands" >
+    <title>Command Reference</title>
+
+    <sect1 id="menus" >
+        <title>&pvfViewer; Menus</title>
+        <sect2>
+            <title>The File Menu</title>
+            <para>
+                <variablelist>
+                    <varlistentry>
+                        <term><menuchoice><shortcut><keycombo>&Ctrl;<keycap>O</keycap></keycombo></shortcut><guimenuitem>Open</guimenuitem></menuchoice></term>
+                        <listitem>
+                            <simpara><action>Opens a pattern file</action></simpara>
+                            <simpara>The open file dialog allows the selection of multiple files at once.</simpara>
+                        </listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term><menuchoice><guimenuitem>Open Recent</guimenuitem></menuchoice></term>
+                        <listitem><simpara><action>Open a recently used pattern</action></simpara></listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term><menuchoice><shortcut><keycombo>&Ctrl;<keycap>P</keycap></keycombo></shortcut><guimenuitem>Print</guimenuitem></menuchoice></term>
+                        <listitem><simpara><action>Print the pattern in the active tab</action></simpara></listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term><menuchoice><guimenuitem>Export PDF</guimenuitem></menuchoice></term>
+                        <listitem><simpara><action>Export the pattern as a PDF</action></simpara></listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term><menuchoice><shortcut><keycombo>&Ctrl;<keycap>Q</keycap></keycombo></shortcut><guimenuitem>Quit</guimenuitem></menuchoice></term>
+                        <listitem><simpara><action>Quits &pvfViewer;</action></simpara></listitem>
+                    </varlistentry>
+                </variablelist>
+            </para>
+        </sect2>
+        <sect2>
+            <title>The Settings and Help Menu</title>
+            <para>&pvfViewer; has the common &kde; <guimenu>Settings</guimenu> and <guimenu>Help</guimenu>
+            menu items, for more information read the sections about the <ulink url="help:/fundamentals/ui.html#menus-settings">Settings
+            Menu</ulink> and <ulink url="help:/fundamentals/ui.html#menus-help">Help Menu</ulink> of the &kde; Fundamentals.
+            </para>
+        </sect2>
+    </sect1>
+</chapter>

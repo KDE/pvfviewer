@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
+<kpartgui name="pvfViewer" version="0.1.0">
+<MenuBar>
+    <Menu name="file">
+        <Action name="fileExportPDF"/>
+    </Menu>
+</MenuBar>
+</kpartgui>
+

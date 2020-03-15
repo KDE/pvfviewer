@@ -1,0 +1,20 @@
+<chapter id="using-pvfviewer" >
+    <title>The User Interface</title>
+
+    <sect1 id="face-screenshot">
+        <title>The &pvfViewer; Main Window</title>
+        <para>
+            The main window consists of a tabbed widget containing a tab for each open pattern file.
+        </para>
+        <para>
+            Each tab contains an image of the finished pattern alongside a scrollable list of the pages
+            making up the pattern when printed.
+        </para>
+        <para>
+            <screenshot>
+                <screeninfo>Here is a screen shot of the &pvfViewer; user interface</screeninfo>
+                <mediaobject><imageobject><imagedata fileref="mainwindow.png" format="PNG" /></imageobject></mediaobject>
+            </screenshot>
+        </para>
+    </sect1>
+</chapter>

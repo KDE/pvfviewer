@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop">
+  <id>org.kde.pvfViewer.desktop</id>
+  <metadata_license>GFDL-1.2-without-invariant</metadata_license>
+  <name>pvfViewer</name>
+  <name xml:lang="en-GB">pvfViewer</name>
+  <summary>A PC Stitch pattern file viewer</summary>
+  <summary xml:lang="en-GB">A PC Stitch pattern file viewer</summary>
+  <description>
+    <p>pvfViewer is a program to view and print PC Stitch Pattern Viewer files.</p>
+    <p xml:lang="en-GB">pvfViewer is a program to view and print PC Stitch Pattern Viewer files.</p>
+    <p>Features:</p>
+    <p xml:lang="en-GB">Features:</p>
+    <ul>
+      <li>Viewing of pattern file thumbnail</li>
+      <li xml:lang="en-GB">Viewing of pattern file thumbnail</li>
+      <li>Preview of pattern file pages</li>
+      <li xml:lang="en-GB">Preview of pattern file pages</li>
+      <li>Printing of pattern file pages</li>
+      <li xml:lang="en-GB">Printing of pattern file pages</li>
+    </ul>
+  </description>
+  <url type="homepage">https://userbase.kde.org/Special:myLanguage/pvfViewer</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=pvfViewer</url>
+  <url type="help">http://docs.kde.org/development/en/extragear-graphics/pvfViewer/index.html</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://cdn.kde.org/screenshots/pvfviewer/pvfViewer.png</image>
+    </screenshot>
+  </screenshots>
+  <project_group>KDE</project_group>
+  <provides>
+    <binary>pvfViewer</binary>
+  </provides>
+</component>

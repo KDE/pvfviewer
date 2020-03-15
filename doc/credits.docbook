@@ -1,0 +1,25 @@
+<chapter id="credits" >
+    <title>Credits and License</title>
+    <para>&pvfViewer;</para>
+    <para>Program copyright 2020 Stephen P. Allewell  <email>steve.allewell@gmail.com</email></para>
+    <para>
+        Contributors:
+        <itemizedlist>
+            <listitem>
+                <para>
+                    Translations provided by various contributors. See the translation file for details.
+                </para>
+            </listitem>
+        </itemizedlist>
+    </para>
+    <para>
+        Inspiration and some code snippets from <ulink url="https://okular.kde.org/">Okular</ulink> which
+        also uses the Poppler library and its Qt5 interface for displaying PDF documents.
+    </para>
+    <para>
+        Documentation copyright 2020 Stephen P. Allewell <email>steve.allewell@gmail.com</email>
+    </para>
+    <!-- TRANS:CREDIT_FOR_TRANSLATORS -->
+    &underFDL;
+    &underGPL;
+</chapter>
