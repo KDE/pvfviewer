@@ -23,7 +23,7 @@
   </description>
   <url type="homepage">https://userbase.kde.org/Special:myLanguage/pvfViewer</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=pvfViewer</url>
-  <url type="help">http://docs.kde.org/development/en/extragear-graphics/pvfViewer/index.html</url>
+  <url type="help">https://docs.kde.org/development/en/extragear-graphics/pvfViewer/index.html</url>
   <screenshots>
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/pvfviewer/pvfViewer.png</image>
