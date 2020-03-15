@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component type="desktop">
   <id>org.kde.pvfViewer.desktop</id>
-  <metadata_license>GFDL-1.2-without-invariant</metadata_license>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
   <name>pvfViewer</name>
   <name xml:lang="en-GB">pvfViewer</name>
   <summary>A PC Stitch pattern file viewer</summary>
