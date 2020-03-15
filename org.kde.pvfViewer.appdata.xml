@@ -5,8 +5,8 @@
   <project_license>GPL-2.0-or-later</project_license>
   <name>pvfViewer</name>
   <name xml:lang="en-GB">pvfViewer</name>
-  <summary>A PC Stitch pattern file viewer</summary>
-  <summary xml:lang="en-GB">A PC Stitch pattern file viewer</summary>
+  <summary>A PC Stitch Pattern Viewer File viewer</summary>
+  <summary xml:lang="en-GB">A PC Stitch Pattern Viewer File viewer</summary>
   <description>
     <p>pvfViewer is a program to view and print PC Stitch Pattern Viewer files.</p>
     <p xml:lang="en-GB">pvfViewer is a program to view and print PC Stitch Pattern Viewer files.</p>
