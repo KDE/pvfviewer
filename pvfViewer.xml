@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
-    <mime-type type="application/octet-stream">
+    <mime-type type="application/x-pvf">
+        <comment xml:lang="en">Pattern Viewer Data File"</comment>
         <comment xml:lang="en_GB">Pattern Viewer Data File</comment>
         <magic priority="50">
             <match type="string" value="Pattern Viewer Data File" offset="0"/>
