@@ -15,6 +15,8 @@
 
 #include <QListWidgetItem>
 
+#include <poppler-qt5.h>
+
 
 class QImage;
 
@@ -22,8 +24,22 @@ class QImage;
 class Thumbnail : public QListWidgetItem
 {
 public:
-    Thumbnail(QImage image);
-    ~Thumbnail() = default;
+    Thumbnail(Poppler::Page *pdfPage, QListWidget *parent);
+    ~Thumbnail();
+
+    QImage image() const;
+
+    int heightForWidth(int width) const;
+
+protected:
+
+public slots:
+    void renderPage();
+    void setImage(const QImage &image);
+
+private:
+    Poppler::Page   *m_pdfPage;
+    QImage          m_image;
 };
 
 

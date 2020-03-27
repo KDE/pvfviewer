@@ -13,12 +13,12 @@
 
 #include <QFileDialog>
 #include <QTabWidget>
+#include <QUrl>
 
 #include <KActionCollection>
 #include <KSharedConfig>
 #include <KConfigGroup>
 #include <KLocalizedString>
-#include <KMessageBox>
 #include <KRecentFilesAction>
 
 #include <poppler-qt5.h>
@@ -121,8 +121,6 @@ void MainWindow::quit()
 
 void MainWindow::currentChanged(int index)
 {
-    Q_UNUSED(index);
-
     if (index == -1) {
         // no more tabs, disable print and export
         actionCollection()->action("file_print")->setEnabled(false);
@@ -130,9 +128,6 @@ void MainWindow::currentChanged(int index)
     } else {
         actionCollection()->action("file_print")->setEnabled(true);
         actionCollection()->action("fileExportPDF")->setEnabled(true);
-    }
-    if (ViewerTab *viewerTab = static_cast<ViewerTab *>(m_tabWidget->currentWidget())) {
-        viewerTab->splitterMoved(0, 0);
     }
 }
 

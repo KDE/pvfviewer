@@ -9,15 +9,56 @@
  ******************************************************************************/
 
 
+#include <QPainter>
+
 #include "Thumbnail.h"
 
 
-Thumbnail::Thumbnail(QImage image)
-    :   QListWidgetItem(0, QListWidgetItem::UserType)
+Thumbnail::Thumbnail(Poppler::Page *pdfPage, QListWidget *parent)
+    :   QListWidgetItem(parent, QListWidgetItem::UserType),
+        m_pdfPage(pdfPage)
 {
-    setIcon(QPixmap::fromImage(image));
 }
 
 
+Thumbnail::~Thumbnail()
+{
+    delete m_pdfPage;
+}
 
 
+QImage Thumbnail::image() const
+{
+    return m_image;
+}
+
+
+int Thumbnail::heightForWidth(int width) const
+{
+    QSize pageSize = m_pdfPage->pageSize();
+
+    return (int)((double)width * pageSize.height() / pageSize.width());
+}
+
+
+void Thumbnail::renderPage()
+{
+    QSize pageSize = m_pdfPage->pageSize();
+    QSize iconSize = listWidget()->iconSize();
+
+    double dpi = (double)(iconSize.width()) * 72 / pageSize.width();
+    m_image = m_pdfPage->renderToImage(dpi, dpi);
+
+    QPainter p(&m_image);
+    p.setRenderHint(QPainter::Antialiasing, true);
+    p.drawRect(m_image.rect());
+    p.end();
+
+    setImage(m_image);
+}
+
+
+void Thumbnail::setImage(const QImage &image)
+{
+    setIcon(QPixmap::fromImage(image));
+}

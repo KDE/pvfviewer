@@ -12,16 +12,15 @@
 #include "ViewerTab.h"
 
 #include <QImage>
-#include <QLabel>
 #include <QListWidget>
 #include <QPainter>
 #include <QPrinter>
 #include <QPrintDialog>
-#include <QProgressBar>
+#include <QProgressDialog>
 #include <QResizeEvent>
+#include <QScrollBar>
+#include <QShowEvent>
 #include <QUrl>
-
-#include <QDebug>
 
 #include <KLocalizedString>
 #include <KMessageBox>
@@ -59,7 +58,19 @@ ViewerTab::ViewerTab(QWidget *parent)
 {
     ui.setupUi(this);
 
+    QScrollBar *scrollbar = ui.PagesList->verticalScrollBar();
+
     connect(ui.splitter, SIGNAL(splitterMoved(int, int)), this, SLOT(splitterMoved(int, int)));
+    connect(scrollbar, SIGNAL(valueChanged(int)), this, SLOT(valueChanged(int)));
+    connect(&m_timer, SIGNAL(timeout()), this, SLOT(renderPages()));
+}
+
+
+void ViewerTab::valueChanged(int value)
+{
+    Q_UNUSED(value);
+
+    if (isVisible()) m_timer.start(100);
 }
 
 
@@ -122,32 +133,27 @@ int ViewerTab::load(const QUrl &url)
         return -1;
     }
 
+    m_document->setRenderHint(Poppler::Document::RenderHint::Antialiasing, true);
+    m_document->setRenderHint(Poppler::Document::RenderHint::TextAntialiasing, true);
+    m_document->setRenderHint(Poppler::Document::RenderHint::TextHinting, true);
+    m_document->setRenderHint(Poppler::Document::RenderHint::TextSlightHinting, true);
+    m_document->setRenderHint(Poppler::Document::RenderHint::ThinLineSolid, true);
+
     int pages = m_document->numPages();
 
     for (int page = 0 ; page < pages ; ++page) {
-        Poppler::Page *pdfPage = m_document->page(page);
-
-        if (pdfPage == 0) {
-            KMessageBox::sorry(nullptr, i18n("Failed to read an expected page."));
-            continue;
-        }
-
-        QImage image = pdfPage->renderToImage(150, 150);
-
-        if (image.isNull()) {
-            KMessageBox::sorry(nullptr, i18n("Failed to create image for page."));
-        }
-
-        QPainter p(&image);
-        p.drawRect(0,0,image.width()-1,image.height()-1);
-        p.end();
-
-        ui.PagesList->addItem(new Thumbnail(image));
-
-        delete pdfPage;
+        new Thumbnail(m_document->page(page), ui.PagesList);
     }
 
     return 0;
+}
+
+
+void ViewerTab::showEvent(QShowEvent *event)
+{
+    QWidget::showEvent(event);
+
+    quickScale();
 }
 
 
@@ -167,10 +173,7 @@ void ViewerTab::resizeEvent(QResizeEvent *event)
 {
     QWidget::resizeEvent(event);
 
-    int pagesWidth = ui.PagesList->viewport()->width() - (ui.PagesList->spacing() * 2);
-    ui.PagesList->setIconSize(QSize(pagesWidth, pagesWidth*2));
-
-    ui.PatternPreview->setPixmap(m_pixmap.scaled(ui.PatternPreview->width()-20, ui.PatternPreview->height()-20, Qt::KeepAspectRatio));
+    if (isVisible()) quickScale();
 }
 
 
@@ -179,11 +182,52 @@ void ViewerTab::splitterMoved(int pos, int index)
     Q_UNUSED(pos);
     Q_UNUSED(index);
 
-    // recalculate the sizes of the image and the pdf pages
-    int pagesWidth = ui.PagesList->viewport()->width() - (ui.PagesList->spacing() * 2);
-    ui.PagesList->setIconSize(QSize(pagesWidth, pagesWidth*2));
+    quickScale();
+}
+
+
+void ViewerTab::quickScale()
+{
+    int newIconWidth = ui.PagesList->viewport()->width() - (2 * ui.PagesList->spacing()) - ui.PagesList->contentsMargins().left() - ui.PagesList->contentsMargins().right();
 
     ui.PatternPreview->setPixmap(m_pixmap.scaled(ui.PatternPreview->width()-20, ui.PatternPreview->height()-20, Qt::KeepAspectRatio));
+
+    ui.PagesList->setIconSize(QSize(newIconWidth, static_cast<Thumbnail *>(ui.PagesList->item(0))->heightForWidth(newIconWidth)));
+
+    for (int page = 0, pages = m_document->numPages() ; page < pages ; ++page) {
+        Thumbnail *thumbnail = static_cast<Thumbnail *>(ui.PagesList->item(page));
+        QImage image = thumbnail->image();
+
+        if (image.isNull()) {
+            image = QImage(ui.PagesList->iconSize(), QImage::Format_ARGB32_Premultiplied);
+            image.fill(Qt::white);
+            thumbnail->setImage(image);
+        } else {
+            thumbnail->setImage(image.scaledToWidth(newIconWidth, Qt::FastTransformation));
+        }
+    }
+
+    m_timer.start(100);
+}
+
+
+void ViewerTab::renderPages()
+{
+    m_timer.stop();
+
+    QScrollBar *scrollBar = ui.PagesList->verticalScrollBar();
+
+    int numPages = m_document->numPages();
+    int pageStep = scrollBar->pageStep();
+    int pageLength = (scrollBar->maximum() + pageStep) / numPages;
+    int value = scrollBar->value();
+    int firstPage = value / pageLength;
+    int lastPage = std::min(((value + pageStep) / pageLength), numPages - 1);
+
+    for (int page = firstPage ; page <= lastPage ; ++page) {
+        Thumbnail *thumbnail = static_cast<Thumbnail *>(ui.PagesList->item(page));
+        thumbnail->renderPage();
+    }
 }
 
 
@@ -217,16 +261,27 @@ void ViewerTab::print()
         while (toPage < pages.count()) pages.removeLast();
         while (--fromPage) pages.removeFirst();
 
-        int pagesCount = pages.count();
+        int pageCount = pages.count();
 
+        QProgressDialog progress(this);
+        progress.setWindowModality(Qt::WindowModal);
+        progress.setRange(0, pageCount);
 
         QPainter painter;
         painter.begin(&printer);
 
-        for (int page = 0 ; page < pagesCount ; ++page) {
+        for (int page = 0 ; page < pageCount ; ++page) {
+            if (progress.wasCanceled()) {
+                printer.abort();
+                return;
+            }
+
             if (page > 0) {
                 printer.newPage();
             }
+
+            progress.setValue(page);
+            progress.setLabelText(i18n("Printing page %1", page+1));
 
             Poppler::Page *pdfPage = (printer.pageOrder() == QPrinter::FirstPageFirst)?pages.takeFirst():pages.takeLast();
 
@@ -248,6 +303,8 @@ void ViewerTab::print()
         }
 
         painter.end();
+
+        progress.setValue(pageCount);
     }
 
     delete printDialog;

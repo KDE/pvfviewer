@@ -15,6 +15,7 @@
 
 #include <QPixmap>
 #include <QString>
+#include <QTimer>
 #include <QWidget>
 
 #include <poppler-qt5.h>
@@ -23,6 +24,7 @@
 
 
 class QResizeEvent;
+class QShowEvent;
 class QUrl;
 
 
@@ -42,11 +44,15 @@ public:
 
     void print();
 
-public slots:
+protected slots:
+    void renderPages();
     void splitterMoved(int pos, int index);
+    void valueChanged(int value);
 
 protected:
+    void quickScale();
     void resizeEvent(QResizeEvent *event) Q_DECL_OVERRIDE;
+    void showEvent(QShowEvent *event) Q_DECL_OVERRIDE;
 
 private:
     Ui::ViewerTab   ui;
@@ -57,6 +63,8 @@ private:
     QPixmap         m_pixmap;
     QString         m_tabTitle;
     QString         m_website;
+
+    QTimer          m_timer;
 };
 
 

@@ -13,12 +13,11 @@
 #define MainWindow_H
 
 
-#include <QUrl>
-
 #include <KXmlGuiWindow>
 
 
 class QTabWidget;
+class QUrl;
 
 
 class MainWindow : public KXmlGuiWindow
