@@ -9,9 +9,9 @@
  ******************************************************************************/
 
 
-#include <QPainter>
-
 #include "Thumbnail.h"
+
+#include <QPainter>
 
 
 Thumbnail::Thumbnail(Poppler::Page *pdfPage, QListWidget *parent)

@@ -33,7 +33,7 @@ class ViewerTab : public QWidget
     Q_OBJECT
 
 public:
-    ViewerTab(QWidget *parent);
+    explicit ViewerTab(QWidget *parent);
     ~ViewerTab();
 
     int load(const QUrl &url);

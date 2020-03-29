@@ -14,6 +14,7 @@
 #include <QImage>
 #include <QListWidget>
 #include <QPainter>
+#include <QPointer>
 #include <QPrinter>
 #include <QPrintDialog>
 #include <QProgressDialog>
@@ -60,7 +61,7 @@ ViewerTab::ViewerTab(QWidget *parent)
 
     QScrollBar *scrollbar = ui.PagesList->verticalScrollBar();
 
-    connect(ui.splitter, SIGNAL(splitterMoved(int, int)), this, SLOT(splitterMoved(int, int)));
+    connect(ui.splitter, SIGNAL(splitterMoved(int,int)), this, SLOT(splitterMoved(int,int)));
     connect(scrollbar, SIGNAL(valueChanged(int)), this, SLOT(valueChanged(int)));
     connect(&m_timer, SIGNAL(timeout()), this, SLOT(renderPages()));
 }
@@ -247,7 +248,7 @@ void ViewerTab::print()
     printer.setPrintRange(QPrinter::AllPages);
     printer.setFromTo(1, pageCount);
 
-    QPrintDialog *printDialog = new QPrintDialog(&printer, this);
+    QPointer<QPrintDialog> printDialog = new QPrintDialog(&printer, this);
 
     if (printDialog->exec() == QDialog::Accepted) {
         int fromPage = 1;

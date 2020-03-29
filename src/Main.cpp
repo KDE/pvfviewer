@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
                          KAboutLicense::GPL_V2,                                 // license
                          i18n("(c)2020 Steve Allewell"),                        // copyright
                          QString(),                                             // other text
-                         QStringLiteral("http://userbase.kde.org/pvfViewer")    // home page
+                         QStringLiteral("https://userbase.kde.org/pvfViewer")   // home page
                          // bug address defaults to submit@bugs.kde.org
                );
 
