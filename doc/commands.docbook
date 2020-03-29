@@ -24,7 +24,7 @@
                     </varlistentry>
                     <varlistentry>
                         <term><menuchoice><guimenuitem>Export PDF</guimenuitem></menuchoice></term>
-                        <listitem><simpara><action>Export the pattern as a PDF</action></simpara></listitem>
+                        <listitem><simpara><action>Export the pattern in the active tab as a PDF</action></simpara></listitem>
                     </varlistentry>
                     <varlistentry>
                         <term><menuchoice><shortcut><keycombo>&Ctrl;<keycap>Q</keycap></keycombo></shortcut><guimenuitem>Quit</guimenuitem></menuchoice></term>

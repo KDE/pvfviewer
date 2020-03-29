@@ -17,6 +17,10 @@
         also uses the Poppler library and its Qt5 interface for displaying PDF documents.
     </para>
     <para>
+        Tux image attribution: <email>lewing@isc.tamu.edu</email> Larry Ewing and The GIMP.
+        Original image available <ulink url="https://commons.wikimedia.org/wiki/File:Tux.png">here</ulink>
+    </para>
+    <para>
         Documentation copyright 2020 Stephen P. Allewell <email>steve.allewell@gmail.com</email>
     </para>
     <!-- TRANS:CREDIT_FOR_TRANSLATORS -->
