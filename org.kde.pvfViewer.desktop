@@ -3,11 +3,8 @@
 Type=Application
 Version=1.1
 Name=pvfViewer
-Name[en_GB]=pvfViewer
 GenericName=PC Stitch Pattern Viewer
-GenericName[en_GB]=PC Stitch Pattern Viewer
 Comment=A PC Stitch pattern viewer application
-Comment[en_GB]=A PC Stitch pattern viewer application
 Icon=pvfViewer
 Exec=pvfViewer -qwindowtitle %c %U
 Terminal=false
