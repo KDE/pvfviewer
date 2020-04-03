@@ -5,60 +5,81 @@
   <project_license>GPL-2.0-or-later</project_license>
   <name>pvfViewer</name>
   <name xml:lang="ca">pvfViewer</name>
+  <name xml:lang="ca-valencia">pvfViewer</name>
   <name xml:lang="es">pvfViewer</name>
   <name xml:lang="et">pvfViewer</name>
   <name xml:lang="ko">pvfViewer</name>
+  <name xml:lang="nl">pvfViewer</name>
   <name xml:lang="pt">pvfViewer</name>
+  <name xml:lang="sv">pvfViewer</name>
   <name xml:lang="uk">pvfViewer</name>
   <name xml:lang="x-test">xxpvfViewerxx</name>
   <summary>A PC Stitch Pattern Viewer File viewer</summary>
   <summary xml:lang="ca">Un visor de fitxers de patrons del PC Stitch</summary>
+  <summary xml:lang="ca-valencia">Un visor de fitxers de patrons del PC Stitch</summary>
   <summary xml:lang="es">Visor de archivos de patrones de PCStitch</summary>
   <summary xml:lang="et">PC Stitchi tikkimismustrite näitaja failinäitaja</summary>
   <summary xml:lang="ko">PC Stitch 패턴 뷰어</summary>
+  <summary xml:lang="nl">Een PC Stitch Pattern Viewer bestandsviewer</summary>
   <summary xml:lang="pt">Um visualizador de ficheiros do Visualizador de Padrões do PC Stitch</summary>
+  <summary xml:lang="sv">Ett visningsprogram av PC Stitch mönsterfiler.</summary>
   <summary xml:lang="uk">Програма для перегляду візерунків вишивки PV для ПК</summary>
   <summary xml:lang="x-test">xxA PC Stitch Pattern Viewer File viewerxx</summary>
   <description>
     <p>pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
     <p xml:lang="ca">El «pvfViewer» és un programa per visualitzar i imprimir fitxer de visor de patrons del PC Stitch que tinguin una extensió «.pvf».</p>
+    <p xml:lang="ca-valencia">El «pvfViewer» és un programa per visualitzar i imprimir fitxer de visor de patrons del PC Stitch que tinguen una extensió «.pvf».</p>
     <p xml:lang="es">pvfViewer es un programa para ver e imprimir archivos del visor de patrones PCStitch que tienen la extensión .pvf.</p>
     <p xml:lang="et">pvfViewer on rakendus pvf-laiendusega PC Stitchi tikkimismustrite näitaja failide näitamiseks ja trükkimiseks.</p>
     <p xml:lang="ko">pvfViewer는 .pvf 확장자로 된 PC Stitch 패턴 뷰어 파일을 보고 인쇄하는 프로그램입니다.</p>
+    <p xml:lang="nl">pvfViewer is een programma om PC Stitch Pattern Viewer bestanden met een .pvf extensie te bekijken en af te drukken.</p>
     <p xml:lang="pt">O pvfViewer é um programa para ver e imprimir os ficheiros do Visualizador de Padrões do PC Stitch que têm uma extensão .pvf.</p>
+    <p xml:lang="sv">pvfViewer är ett program för att visa och skriva ut PC Stitch mönstervisningsfiler med filändelsen .pvf.</p>
     <p xml:lang="uk">pvfViewer — програма для перегляду і друку файлів PC Stitch Pattern Viewer, які мають суфікс назви .pvf.</p>
     <p xml:lang="x-test">xxpvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.xx</p>
     <p>Features:</p>
     <p xml:lang="ca">Característiques:</p>
+    <p xml:lang="ca-valencia">Característiques:</p>
     <p xml:lang="es">Funcionalidades:</p>
     <p xml:lang="et">Omadused:</p>
     <p xml:lang="ko">기능:</p>
+    <p xml:lang="nl">Mogelijkheden:</p>
     <p xml:lang="pt">Funcionalidades:</p>
+    <p xml:lang="sv">Funktioner:</p>
     <p xml:lang="uk">Можливості:</p>
     <p xml:lang="x-test">xxFeatures:xx</p>
     <ul>
       <li>Viewing of pattern file thumbnail</li>
       <li xml:lang="ca">Visualització de miniatures de fitxers de patrons</li>
+      <li xml:lang="ca-valencia">Visualització de miniatures de fitxers de patrons</li>
       <li xml:lang="es">Visualización de miniaturas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili pisipildi näitamine</li>
       <li xml:lang="ko">패턴 파일 미리 보기 그림 표시</li>
+      <li xml:lang="nl">Een miniatuur van een patroonbestand bekijken</li>
       <li xml:lang="pt">Visualização em miniatura do ficheiro do padrão</li>
+      <li xml:lang="sv">Visning av miniatyrbild i mönsterfil</li>
       <li xml:lang="uk">Перегляд мініатюр файлів візерунків</li>
       <li xml:lang="x-test">xxViewing of pattern file thumbnailxx</li>
       <li>Preview of pattern file pages</li>
       <li xml:lang="ca">Vista prèvia de pàgines de fitxers de patrons</li>
+      <li xml:lang="ca-valencia">Vista prèvia de pàgines de fitxers de patrons</li>
       <li xml:lang="es">Vista previa de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede eelvaatlus</li>
       <li xml:lang="ko">패턴 파일 쪽 표시</li>
+      <li xml:lang="nl">Voorbeeld van pagina's van patroonbestand</li>
       <li xml:lang="pt">Antevisão das páginas de ficheiros de padrões</li>
+      <li xml:lang="sv">Förhandsgranskning av sidor i mönsterfil</li>
       <li xml:lang="uk">Попередній перегляд сторінок файлів візерунків</li>
       <li xml:lang="x-test">xxPreview of pattern file pagesxx</li>
       <li>Printing of pattern file pages</li>
       <li xml:lang="ca">Impressió de pàgines de fitxers de patrons</li>
+      <li xml:lang="ca-valencia">Impressió de pàgines de fitxers de patrons</li>
       <li xml:lang="es">Impresión de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede trükkimine</li>
       <li xml:lang="ko">패턴 파일 쪽 인쇄</li>
+      <li xml:lang="nl">Afdrukken van pagina's van patroonbestand</li>
       <li xml:lang="pt">Impressão das páginas de ficheiros de padrões</li>
+      <li xml:lang="sv">Utskrift av sidor i mönsterfil</li>
       <li xml:lang="uk">Друк сторінок файлів візерунків</li>
       <li xml:lang="x-test">xxPrinting of pattern file pagesxx</li>
     </ul>
