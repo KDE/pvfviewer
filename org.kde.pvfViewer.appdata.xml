@@ -6,6 +6,7 @@
   <name>pvfViewer</name>
   <name xml:lang="ca">pvfViewer</name>
   <name xml:lang="ca-valencia">pvfViewer</name>
+  <name xml:lang="en-GB">pvfViewer</name>
   <name xml:lang="es">pvfViewer</name>
   <name xml:lang="et">pvfViewer</name>
   <name xml:lang="it">pvfViewer</name>
@@ -18,6 +19,7 @@
   <summary>A PC Stitch Pattern Viewer File viewer</summary>
   <summary xml:lang="ca">Un visor de fitxers de patrons del PC Stitch</summary>
   <summary xml:lang="ca-valencia">Un visor de fitxers de patrons del PC Stitch</summary>
+  <summary xml:lang="en-GB">A PC Stitch Pattern Viewer File viewer</summary>
   <summary xml:lang="es">Visor de archivos de patrones de PCStitch</summary>
   <summary xml:lang="et">PC Stitchi tikkimismustrite näitaja failinäitaja</summary>
   <summary xml:lang="it">Un visore di file di modelli pvf di PC Stitch</summary>
@@ -31,6 +33,7 @@
     <p>pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
     <p xml:lang="ca">El «pvfViewer» és un programa per visualitzar i imprimir fitxer de visor de patrons del PC Stitch que tinguin una extensió «.pvf».</p>
     <p xml:lang="ca-valencia">El «pvfViewer» és un programa per visualitzar i imprimir fitxer de visor de patrons del PC Stitch que tinguen una extensió «.pvf».</p>
+    <p xml:lang="en-GB">pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
     <p xml:lang="es">pvfViewer es un programa para ver e imprimir archivos del visor de patrones PCStitch que tienen la extensión .pvf.</p>
     <p xml:lang="et">pvfViewer on rakendus pvf-laiendusega PC Stitchi tikkimismustrite näitaja failide näitamiseks ja trükkimiseks.</p>
     <p xml:lang="it">pvfViewer è un programma per visualizzare e stampare file del visore dei file di modelli di PC Stitch che hanno estensione .pvf</p>
@@ -43,6 +46,7 @@
     <p>Features:</p>
     <p xml:lang="ca">Característiques:</p>
     <p xml:lang="ca-valencia">Característiques:</p>
+    <p xml:lang="en-GB">Features:</p>
     <p xml:lang="es">Funcionalidades:</p>
     <p xml:lang="et">Omadused:</p>
     <p xml:lang="it">Funzionalità:</p>
@@ -56,6 +60,7 @@
       <li>Viewing of pattern file thumbnail</li>
       <li xml:lang="ca">Visualització de miniatures de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Visualització de miniatures de fitxers de patrons</li>
+      <li xml:lang="en-GB">Viewing of pattern file thumbnail</li>
       <li xml:lang="es">Visualización de miniaturas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili pisipildi näitamine</li>
       <li xml:lang="it">Visualizza le miniature dei file dei modelli</li>
@@ -68,6 +73,7 @@
       <li>Preview of pattern file pages</li>
       <li xml:lang="ca">Vista prèvia de pàgines de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Vista prèvia de pàgines de fitxers de patrons</li>
+      <li xml:lang="en-GB">Preview of pattern file pages</li>
       <li xml:lang="es">Vista previa de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede eelvaatlus</li>
       <li xml:lang="it">Anteprima delle pagine di file dei modelli</li>
@@ -80,6 +86,7 @@
       <li>Printing of pattern file pages</li>
       <li xml:lang="ca">Impressió de pàgines de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Impressió de pàgines de fitxers de patrons</li>
+      <li xml:lang="en-GB">Printing of pattern file pages</li>
       <li xml:lang="es">Impresión de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede trükkimine</li>
       <li xml:lang="it">Stampa delle pagine di file dei modelli</li>
