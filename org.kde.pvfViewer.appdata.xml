@@ -13,6 +13,7 @@
   <name xml:lang="ko">pvfViewer</name>
   <name xml:lang="nl">pvfViewer</name>
   <name xml:lang="pt">pvfViewer</name>
+  <name xml:lang="sk">pvfViewer</name>
   <name xml:lang="sv">pvfViewer</name>
   <name xml:lang="uk">pvfViewer</name>
   <name xml:lang="x-test">xxpvfViewerxx</name>
@@ -53,6 +54,7 @@
     <p xml:lang="ko">기능:</p>
     <p xml:lang="nl">Mogelijkheden:</p>
     <p xml:lang="pt">Funcionalidades:</p>
+    <p xml:lang="sk">Funkcie:</p>
     <p xml:lang="sv">Funktioner:</p>
     <p xml:lang="uk">Можливості:</p>
     <p xml:lang="x-test">xxFeatures:xx</p>
