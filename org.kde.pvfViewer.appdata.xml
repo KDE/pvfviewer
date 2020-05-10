@@ -9,6 +9,7 @@
   <name xml:lang="en-GB">pvfViewer</name>
   <name xml:lang="es">pvfViewer</name>
   <name xml:lang="et">pvfViewer</name>
+  <name xml:lang="fr">pvfViewer</name>
   <name xml:lang="it">pvfViewer</name>
   <name xml:lang="ko">pvfViewer</name>
   <name xml:lang="nl">pvfViewer</name>
@@ -24,6 +25,7 @@
   <summary xml:lang="en-GB">A PC Stitch Pattern Viewer File viewer</summary>
   <summary xml:lang="es">Visor de archivos de patrones de PCStitch</summary>
   <summary xml:lang="et">PC Stitchi tikkimismustrite näitaja failinäitaja</summary>
+  <summary xml:lang="fr">Un afficheur de fichier de motifs de tapisserie</summary>
   <summary xml:lang="it">Un visore di file di modelli pvf di PC Stitch</summary>
   <summary xml:lang="ko">PC Stitch 패턴 뷰어</summary>
   <summary xml:lang="nl">Een PC Stitch Pattern Viewer bestandsviewer</summary>
@@ -38,6 +40,7 @@
     <p xml:lang="en-GB">pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
     <p xml:lang="es">pvfViewer es un programa para ver e imprimir archivos del visor de patrones PCStitch que tienen la extensión .pvf.</p>
     <p xml:lang="et">pvfViewer on rakendus pvf-laiendusega PC Stitchi tikkimismustrite näitaja failide näitamiseks ja trükkimiseks.</p>
+    <p xml:lang="fr">Le programme « pvfViewer » affiche et imprime les fichiers de motifs de tapisserie, dont l'extension est « .pvf ».</p>
     <p xml:lang="it">pvfViewer è un programma per visualizzare e stampare file del visore dei file di modelli di PC Stitch che hanno estensione .pvf</p>
     <p xml:lang="ko">pvfViewer는 .pvf 확장자로 된 PC Stitch 패턴 뷰어 파일을 보고 인쇄하는 프로그램입니다.</p>
     <p xml:lang="nl">pvfViewer is een programma om PC Stitch Pattern Viewer bestanden met een .pvf extensie te bekijken en af te drukken.</p>
@@ -51,6 +54,7 @@
     <p xml:lang="en-GB">Features:</p>
     <p xml:lang="es">Funcionalidades:</p>
     <p xml:lang="et">Omadused:</p>
+    <p xml:lang="fr">Fonctionnalités :</p>
     <p xml:lang="it">Funzionalità:</p>
     <p xml:lang="ko">기능:</p>
     <p xml:lang="nl">Mogelijkheden:</p>
@@ -67,6 +71,7 @@
       <li xml:lang="en-GB">Viewing of pattern file thumbnail</li>
       <li xml:lang="es">Visualización de miniaturas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili pisipildi näitamine</li>
+      <li xml:lang="fr">Affichage de la vignette pour le fichier de motifs </li>
       <li xml:lang="it">Visualizza le miniature dei file dei modelli</li>
       <li xml:lang="ko">패턴 파일 미리 보기 그림 표시</li>
       <li xml:lang="nl">Een miniatuur van een patroonbestand bekijken</li>
@@ -80,6 +85,7 @@
       <li xml:lang="en-GB">Preview of pattern file pages</li>
       <li xml:lang="es">Vista previa de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede eelvaatlus</li>
+      <li xml:lang="fr">Aperçu des pages du fichier de motifs</li>
       <li xml:lang="it">Anteprima delle pagine di file dei modelli</li>
       <li xml:lang="ko">패턴 파일 쪽 표시</li>
       <li xml:lang="nl">Voorbeeld van pagina's van patroonbestand</li>
@@ -93,6 +99,7 @@
       <li xml:lang="en-GB">Printing of pattern file pages</li>
       <li xml:lang="es">Impresión de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede trükkimine</li>
+      <li xml:lang="fr">Impression des pages du fichier de motifs</li>
       <li xml:lang="it">Stampa delle pagine di file dei modelli</li>
       <li xml:lang="ko">패턴 파일 쪽 인쇄</li>
       <li xml:lang="nl">Afdrukken van pagina's van patroonbestand</li>
