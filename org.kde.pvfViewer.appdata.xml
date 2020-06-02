@@ -6,6 +6,7 @@
   <name>pvfViewer</name>
   <name xml:lang="ca">pvfViewer</name>
   <name xml:lang="ca-valencia">pvfViewer</name>
+  <name xml:lang="cs">pvfViewer</name>
   <name xml:lang="en-GB">pvfViewer</name>
   <name xml:lang="es">pvfViewer</name>
   <name xml:lang="et">pvfViewer</name>
@@ -52,6 +53,7 @@
     <p>Features:</p>
     <p xml:lang="ca">Característiques:</p>
     <p xml:lang="ca-valencia">Característiques:</p>
+    <p xml:lang="cs">Vlastnosti:</p>
     <p xml:lang="en-GB">Features:</p>
     <p xml:lang="es">Funcionalidades:</p>
     <p xml:lang="et">Omadused:</p>
