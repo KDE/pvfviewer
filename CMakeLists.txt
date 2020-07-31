@@ -53,7 +53,7 @@ if (KF5DocTools_FOUND)
     add_subdirectory (doc)
 endif (KF5DocTools_FOUND)
 
-ecm_install_icons (ICONS sc-apps-pvfViewer.svgz DESTINATION ${ICON_INSTALL_DIR})
+ecm_install_icons (ICONS sc-apps-pvfViewer.svgz sc-mimetypes-application-x-pvf.svgz DESTINATION ${ICON_INSTALL_DIR})
 
 add_executable (pvfViewer ${pvfViewer_SRCS})
 

@@ -6,8 +6,9 @@
         <magic priority="50">
             <match type="string" value="Pattern Viewer Data File" offset="0"/>
         </magic>
+        <glob-deleteall/>
         <glob pattern="*.pvf"/>
-        <icon name="pvfViewer"/>
+        <icon name="application-x-pvf"/>
     </mime-type>
 </mime-info>
 
