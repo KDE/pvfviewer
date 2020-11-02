@@ -14,6 +14,7 @@
   <name xml:lang="it">pvfViewer</name>
   <name xml:lang="ko">pvfViewer</name>
   <name xml:lang="nl">pvfViewer</name>
+  <name xml:lang="nn">pvfViewer</name>
   <name xml:lang="pt">pvfViewer</name>
   <name xml:lang="pt-BR">pvfViewer</name>
   <name xml:lang="ru">pvfViewer</name>
@@ -32,6 +33,7 @@
   <summary xml:lang="it">Un visore di file di modelli pvf di PC Stitch</summary>
   <summary xml:lang="ko">PC Stitch 패턴 뷰어</summary>
   <summary xml:lang="nl">Een PC Stitch Pattern Viewer bestandsviewer</summary>
+  <summary xml:lang="nn">Visar for PC Stitch-mønstervisarfiler</summary>
   <summary xml:lang="pt">Um visualizador de ficheiros do Visualizador de Padrões do PC Stitch</summary>
   <summary xml:lang="pt-BR">Um visualizador de arquivos de padrões PC Stitch</summary>
   <summary xml:lang="sl">Pregledovalnik datotek vzorcev PC Stitch</summary>
@@ -49,6 +51,7 @@
     <p xml:lang="it">pvfViewer è un programma per visualizzare e stampare file del visore dei file di modelli di PC Stitch che hanno estensione .pvf</p>
     <p xml:lang="ko">pvfViewer는 .pvf 확장자로 된 PC Stitch 패턴 뷰어 파일을 보고 인쇄하는 프로그램입니다.</p>
     <p xml:lang="nl">pvfViewer is een programma om PC Stitch Pattern Viewer bestanden met een .pvf extensie te bekijken en af te drukken.</p>
+    <p xml:lang="nn">Program for å visa og skriva ut PC Stitch-mønsterfiler med .pvf-etternamn.</p>
     <p xml:lang="pt">O pvfViewer é um programa para ver e imprimir os ficheiros do Visualizador de Padrões do PC Stitch que têm uma extensão .pvf.</p>
     <p xml:lang="pt-BR">O pvfViewer é um programa para visualizar e imprimir arquivos do visualizador de padrões PC Stitch que tem a extensão .pvf.</p>
     <p xml:lang="sl">pvfViewer je program za ogled in tiskanje datotek PC Stitch Pattern, ki imajo pripono .pvf.</p>
@@ -66,6 +69,7 @@
     <p xml:lang="it">Funzionalità:</p>
     <p xml:lang="ko">기능:</p>
     <p xml:lang="nl">Mogelijkheden:</p>
+    <p xml:lang="nn">Funksjonar:</p>
     <p xml:lang="pt">Funcionalidades:</p>
     <p xml:lang="pt-BR">Funcionalidades:</p>
     <p xml:lang="ru">Возможности:</p>
@@ -85,6 +89,7 @@
       <li xml:lang="it">Visualizza le miniature dei file dei modelli</li>
       <li xml:lang="ko">패턴 파일 축소판 표시</li>
       <li xml:lang="nl">Een miniatuur van een patroonbestand bekijken</li>
+      <li xml:lang="nn">Miniatyrbilet­vising av mønsterfila</li>
       <li xml:lang="pt">Visualização em miniatura do ficheiro do padrão</li>
       <li xml:lang="pt-BR">Visualizando a miniatura do arquivo de padrão</li>
       <li xml:lang="sl">Predogled datoteke vzorcev</li>
@@ -101,6 +106,7 @@
       <li xml:lang="it">Anteprima delle pagine di file dei modelli</li>
       <li xml:lang="ko">패턴 파일 쪽 표시</li>
       <li xml:lang="nl">Voorbeeld van pagina's van patroonbestand</li>
+      <li xml:lang="nn">Førehandsvising av sider i mønsterfila</li>
       <li xml:lang="pt">Antevisão das páginas de ficheiros de padrões</li>
       <li xml:lang="pt-BR">Visualização das páginas do arquivo de padrão</li>
       <li xml:lang="sl">Predogled strani vzorcev</li>
@@ -117,6 +123,7 @@
       <li xml:lang="it">Stampa delle pagine di file dei modelli</li>
       <li xml:lang="ko">패턴 파일 쪽 인쇄</li>
       <li xml:lang="nl">Afdrukken van pagina's van patroonbestand</li>
+      <li xml:lang="nn">Utskrift av sider i mønsterfila</li>
       <li xml:lang="pt">Impressão das páginas de ficheiros de padrões</li>
       <li xml:lang="pt-BR">Imprimindo as páginas do arquivo de padrão</li>
       <li xml:lang="sl">Tiskanje strani vzorcev</li>
