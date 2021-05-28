@@ -30,6 +30,7 @@
   <summary>A PC Stitch Pattern Viewer File viewer</summary>
   <summary xml:lang="ca">Un visor de fitxers de patrons del PC Stitch</summary>
   <summary xml:lang="ca-valencia">Un visor de fitxers de patrons del PC Stitch</summary>
+  <summary xml:lang="de">Ein Anzeigeprogramm für PC-Kreuzstich-Muster</summary>
   <summary xml:lang="en-GB">A PC Stitch Pattern Viewer File viewer</summary>
   <summary xml:lang="es">Visor de archivos de patrones de PCStitch</summary>
   <summary xml:lang="et">PC Stitchi tikkimismustrite näitaja failinäitaja</summary>
@@ -51,6 +52,7 @@
     <p>pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
     <p xml:lang="ca">El «pvfViewer» és un programa per a visualitzar i imprimir fitxers del visor de patrons del PC Stitch que tinguin una extensió «.pvf».</p>
     <p xml:lang="ca-valencia">El «pvfViewer» és un programa per a visualitzar i imprimir fitxers del visor de patrons del PC Stitch que tinguen una extensió «.pvf».</p>
+    <p xml:lang="de">pvfViewer ist ein Programm zum Anzeigen und Drucken von PC-Kreuzstich-Muster-Dateien mit der Erweiterung .pvf.</p>
     <p xml:lang="en-GB">pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
     <p xml:lang="es">pvfViewer es un programa para ver e imprimir archivos del visor de patrones PCStitch que tienen la extensión .pvf.</p>
     <p xml:lang="et">pvfViewer on rakendus pvf-laiendusega PC Stitchi tikkimismustrite näitaja failide näitamiseks ja trükkimiseks.</p>
@@ -96,6 +98,7 @@
       <li>Viewing of pattern file thumbnail</li>
       <li xml:lang="ca">Visualització de miniatures de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Visualització de miniatures de fitxers de patrons</li>
+      <li xml:lang="de">Anzeige von Vorschaubildern aus einer Musterdatei</li>
       <li xml:lang="en-GB">Viewing of pattern file thumbnail</li>
       <li xml:lang="es">Visualización de miniaturas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili pisipildi näitamine</li>
@@ -116,6 +119,7 @@
       <li>Preview of pattern file pages</li>
       <li xml:lang="ca">Vista prèvia de pàgines de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Vista prèvia de pàgines de fitxers de patrons</li>
+      <li xml:lang="de">Anzeige von Seiten aus einer Musterdatei</li>
       <li xml:lang="en-GB">Preview of pattern file pages</li>
       <li xml:lang="es">Vista previa de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede eelvaatlus</li>
@@ -136,6 +140,7 @@
       <li>Printing of pattern file pages</li>
       <li xml:lang="ca">Impressió de pàgines de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Impressió de pàgines de fitxers de patrons</li>
+      <li xml:lang="de">Ausdruck von Seiten aus einer Musterdatei</li>
       <li xml:lang="en-GB">Printing of pattern file pages</li>
       <li xml:lang="es">Impresión de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede trükkimine</li>
