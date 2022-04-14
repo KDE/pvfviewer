@@ -26,6 +26,7 @@
   <name xml:lang="sk">pvfViewer</name>
   <name xml:lang="sl">pvfViewer</name>
   <name xml:lang="sv">pvfViewer</name>
+  <name xml:lang="tr">pvfViewer</name>
   <name xml:lang="uk">pvfViewer</name>
   <name xml:lang="x-test">xxpvfViewerxx</name>
   <summary>A PC Stitch Pattern Viewer File viewer</summary>
@@ -48,6 +49,7 @@
   <summary xml:lang="pt-BR">Um visualizador de arquivos de padrões PC Stitch</summary>
   <summary xml:lang="sl">Pregledovalnik datotek vzorcev PC Stitch</summary>
   <summary xml:lang="sv">Ett visningsprogram av PC Stitch mönsterfiler.</summary>
+  <summary xml:lang="tr">Bir PC Dikiş Deseni Görüntüleyici</summary>
   <summary xml:lang="uk">Програма для перегляду візерунків вишивки PV для ПК</summary>
   <summary xml:lang="x-test">xxA PC Stitch Pattern Viewer File viewerxx</summary>
   <description>
@@ -71,6 +73,7 @@
     <p xml:lang="pt-BR">O pvfViewer é um programa para visualizar e imprimir arquivos do visualizador de padrões PC Stitch que tem a extensão .pvf.</p>
     <p xml:lang="sl">pvfViewer je program za ogled in tiskanje datotek PC Stitch Pattern, ki imajo pripono .pvf.</p>
     <p xml:lang="sv">pvfViewer är ett program för att visa och skriva ut PC Stitch mönstervisningsfiler med filändelsen .pvf.</p>
+    <p xml:lang="tr">pvfViewer, PC Dikiş Deseni Görüntüleyici dosyalarını görüntülemek ve yazdırmak için bir programdır.</p>
     <p xml:lang="uk">pvfViewer — програма для перегляду і друку файлів PC Stitch Pattern Viewer, які мають суфікс назви .pvf.</p>
     <p xml:lang="x-test">xxpvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.xx</p>
     <p>Features:</p>
@@ -96,6 +99,7 @@
     <p xml:lang="sk">Funkcie:</p>
     <p xml:lang="sl">Možnosti:</p>
     <p xml:lang="sv">Funktioner:</p>
+    <p xml:lang="tr">Özellikler:</p>
     <p xml:lang="uk">Можливості:</p>
     <p xml:lang="x-test">xxFeatures:xx</p>
     <ul>
@@ -119,6 +123,7 @@
       <li xml:lang="pt-BR">Visualizando a miniatura do arquivo de padrão</li>
       <li xml:lang="sl">Predogled datoteke vzorcev</li>
       <li xml:lang="sv">Visning av miniatyrbild i mönsterfil</li>
+      <li xml:lang="tr">Desen dosyası küçük görselini görüntüleme</li>
       <li xml:lang="uk">Перегляд мініатюр файлів візерунків</li>
       <li xml:lang="x-test">xxViewing of pattern file thumbnailxx</li>
       <li>Preview of pattern file pages</li>
@@ -141,6 +146,7 @@
       <li xml:lang="pt-BR">Visualização das páginas do arquivo de padrão</li>
       <li xml:lang="sl">Predogled strani vzorcev</li>
       <li xml:lang="sv">Förhandsgranskning av sidor i mönsterfil</li>
+      <li xml:lang="tr">Desen dosyası sayfalarının önizlemesi</li>
       <li xml:lang="uk">Попередній перегляд сторінок файлів візерунків</li>
       <li xml:lang="x-test">xxPreview of pattern file pagesxx</li>
       <li>Printing of pattern file pages</li>
@@ -163,6 +169,7 @@
       <li xml:lang="pt-BR">Imprimindo as páginas do arquivo de padrão</li>
       <li xml:lang="sl">Tiskanje strani vzorcev</li>
       <li xml:lang="sv">Utskrift av sidor i mönsterfil</li>
+      <li xml:lang="tr">Desen dosyası sayfalarının yazdırılması</li>
       <li xml:lang="uk">Друк сторінок файлів візерунків</li>
       <li xml:lang="x-test">xxPrinting of pattern file pagesxx</li>
     </ul>
