@@ -130,7 +130,7 @@ int ViewerTab::load(const QUrl &url)
     if (!m_document || m_document->isLocked()) {
         KMessageBox::error(nullptr, i18n("Failed to create PDF from data."));
         delete m_document;
-        m_document = 0;
+        m_document = nullptr;
         return -1;
     }
 
