@@ -53,7 +53,7 @@ if (KF5DocTools_FOUND)
     add_subdirectory (doc)
 endif (KF5DocTools_FOUND)
 
-ecm_install_icons (ICONS sc-apps-pvfViewer.svgz sc-mimetypes-application-x-pvf.svgz DESTINATION ${ICON_INSTALL_DIR})
+ecm_install_icons (ICONS sc-apps-pvfViewer.svgz sc-mimetypes-application-x-pvf.svgz DESTINATION ${KDE_INSTALL_ICONDIR})
 
 add_executable (pvfViewer ${pvfViewer_SRCS})
 
@@ -77,14 +77,14 @@ if (SILENCE_DEPRECATED)
     add_definitions( -Wno-deprecated-declarations )
 endif (SILENCE_DEPRECATED)
 
-install (TARGETS pvfViewer DESTINATION ${BIN_INSTALL_DIR})
-install (FILES pvfViewerui.rc DESTINATION ${KXMLGUI_INSTALL_DIR}/pvfViewer)
-install (FILES org.kde.pvfViewer.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})
+install (TARGETS pvfViewer DESTINATION ${KDE_INSTALL_BINDIR})
+install (FILES pvfViewerui.rc DESTINATION ${KDE_INSTALL_KXMLGUI5DIR}/pvfViewer)
+install (FILES org.kde.pvfViewer.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install (FILES org.kde.pvfViewer.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
 IF (SHAREDMIMEINFO_FOUND)
-    install (FILES pvfViewer.xml DESTINATION ${XDG_MIME_INSTALL_DIR})
-    update_xdg_mimetypes (${XDG_MIME_INSTALL_DIR})
+    install (FILES pvfViewer.xml DESTINATION ${KDE_INSTALL_MIMEDIR})
+    update_xdg_mimetypes (${KDE_INSTALL_MIMEDIR})
 ENDIF (SHAREDMIMEINFO_FOUND)
 
 feature_summary (WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
