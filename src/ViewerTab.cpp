@@ -87,7 +87,7 @@ int ViewerTab::load(const QUrl &url)
 
     if (!src.open(QIODevice::ReadOnly))
     {
-        KMessageBox::sorry(nullptr, i18n("Failed to open source file."));
+        KMessageBox::error(nullptr, i18n("Failed to open source file."));
         return -1;
     }
 
@@ -95,7 +95,7 @@ int ViewerTab::load(const QUrl &url)
     stream.setByteOrder(QDataStream::LittleEndian);
 
     if (!readData(stream, 24).contains("Pattern Viewer Data File")) {
-        KMessageBox::sorry(nullptr, i18n("Not a PC Stitch Pattern Viewer file."));
+        KMessageBox::error(nullptr, i18n("Not a PC Stitch Pattern Viewer file."));
         return -1;
     }
 
@@ -128,7 +128,7 @@ int ViewerTab::load(const QUrl &url)
     m_document = Poppler::Document::loadFromData(m_pdfData);
 
     if (!m_document || m_document->isLocked()) {
-        KMessageBox::sorry(nullptr, i18n("Failed to create PDF from data."));
+        KMessageBox::error(nullptr, i18n("Failed to create PDF from data."));
         delete m_document;
         m_document = 0;
         return -1;
