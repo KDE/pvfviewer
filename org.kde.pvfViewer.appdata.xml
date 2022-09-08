@@ -31,7 +31,7 @@
   <name xml:lang="uk">pvfViewer</name>
   <name xml:lang="x-test">xxpvfViewerxx</name>
   <summary>A PC Stitch Pattern Viewer File viewer</summary>
-  <summary xml:lang="ca">Un visor de fitxers de patrons del PC Stitch</summary>
+  <summary xml:lang="ca">Un visualitzador de fitxers de patrons del PC Stitch</summary>
   <summary xml:lang="ca-valencia">Un visor de fitxers de patrons del PC Stitch</summary>
   <summary xml:lang="de">Ein Anzeigeprogramm für PC-Kreuzstich-Muster</summary>
   <summary xml:lang="en-GB">A PC Stitch Pattern Viewer File viewer</summary>
@@ -56,7 +56,7 @@
   <summary xml:lang="x-test">xxA PC Stitch Pattern Viewer File viewerxx</summary>
   <description>
     <p>pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
-    <p xml:lang="ca">El «pvfViewer» és un programa per a visualitzar i imprimir fitxers del visor de patrons del PC Stitch que tinguin una extensió «.pvf».</p>
+    <p xml:lang="ca">El «pvfViewer» és un programa per a visualitzar i imprimir fitxers del visualitzador de patrons del PC Stitch que tinguin una extensió «.pvf».</p>
     <p xml:lang="ca-valencia">«pvfViewer» és un programa per a visualitzar i imprimir fitxers del visor de patrons del PC Stitch que tinguen una extensió «.pvf».</p>
     <p xml:lang="de">pvfViewer ist ein Programm zum Anzeigen und Drucken von PC-Kreuzstich-Muster-Dateien mit der Erweiterung .pvf.</p>
     <p xml:lang="en-GB">pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
