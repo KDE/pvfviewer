@@ -1,0 +1,113 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the pvfviewer package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: pvfviewer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-04-01 03:26+0200\n"
+"PO-Revision-Date: 2020-04-01 10:00+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.12.3\n"
+
+#: src/Main.cpp:30
+#, kde-format
+msgid "pvfViewer"
+msgstr "pvfViewer"
+
+#: src/Main.cpp:32
+#, kde-format
+msgid "A PC Stitch pvf pattern viewer."
+msgstr "Een PC Stitch pvf-patroonviewer."
+
+#: src/Main.cpp:34
+#, kde-format
+msgid "(c)2020 Steve Allewell"
+msgstr "(c)2020 Steve Allewell"
+
+#: src/Main.cpp:40
+#, kde-format
+msgid "Project Lead"
+msgstr "Projectleider"
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Freek de Kruijf - 2020"
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "freekdekruijf@kde.nl"
+
+#: src/MainWindow.cpp:43
+#, kde-format
+msgid "Export PDF..."
+msgstr "PDF exporteren..."
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Open file"
+msgstr "Bestand openen"
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Pattern Viewer File (*.pvf)"
+msgstr "Patroonviewer-bestand (*.pvf)"
+
+#: src/MainWindow.cpp:98
+#, kde-format
+msgid "Export As..."
+msgstr "Exporteren als..."
+
+#: src/MainWindow.cpp:99
+#, kde-format
+msgid "PDF File (*.pdf)"
+msgstr "PDF-bestand (*.pdf)"
+
+#: src/ViewerTab.cpp:90
+#, kde-format
+msgid "Failed to open source file."
+msgstr "Openen van bronbestand is mislukt."
+
+#: src/ViewerTab.cpp:98
+#, kde-format
+msgid "Not a PC Stitch Pattern Viewer file."
+msgstr "Geen PC Stitch Pattern Viewer bestand."
+
+#: src/ViewerTab.cpp:131
+#, kde-format
+msgid "Failed to create PDF from data."
+msgstr "Een PDF aanmaken uit gegevens is mislukt."
+
+#: src/ViewerTab.cpp:285
+#, kde-format
+msgid "Printing page %1"
+msgstr "Pagina %1 wordt afgedrukt"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/ViewerTab.ui:54
+#, kde-format
+msgid "Designed by"
+msgstr "Ontworpen voor"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/ViewerTab.ui:80
+#, kde-format
+msgid "Copyright"
+msgstr "Copyright"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/ViewerTab.ui:106
+#, kde-format
+msgid "Licensed to"
+msgstr "Licentie gegeven aan"
