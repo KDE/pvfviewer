@@ -1,0 +1,116 @@
+# Translation for pvfViewer.po to Euskara/Basque (eu).
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the pvfviewer package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: pvfviewer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-04-01 03:26+0200\n"
+"PO-Revision-Date: 2023-01-29 20:48+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.1\n"
+
+#: src/Main.cpp:30
+#, kde-format
+msgid "pvfViewer"
+msgstr "pvfViewer"
+
+#: src/Main.cpp:32
+#, kde-format
+msgid "A PC Stitch pvf pattern viewer."
+msgstr "«PC Stitch» pvf ereduak erakustekoa."
+
+#: src/Main.cpp:34
+#, kde-format
+msgid "(c)2020 Steve Allewell"
+msgstr "(c)2020 Steve Allewell"
+
+#: src/Main.cpp:40
+#, kde-format
+msgid "Project Lead"
+msgstr "Proiektu-burua"
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#: src/MainWindow.cpp:43
+#, kde-format
+msgid "Export PDF..."
+msgstr "Esportatu PDF..."
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Open file"
+msgstr "Ireki fitxategia"
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Pattern Viewer File (*.pvf)"
+msgstr "Ereduak erakusteko fitxategia (*.pvf)"
+
+#: src/MainWindow.cpp:98
+#, kde-format
+msgid "Export As..."
+msgstr "Esportatu honela..."
+
+#: src/MainWindow.cpp:99
+#, kde-format
+msgid "PDF File (*.pdf)"
+msgstr "PDF fitxategia (*.pdf)"
+
+#: src/ViewerTab.cpp:90
+#, kde-format
+msgid "Failed to open source file."
+msgstr "Sorburu fitxategia irekitzea huts egin du."
+
+#: src/ViewerTab.cpp:98
+#, kde-format
+msgid "Not a PC Stitch Pattern Viewer file."
+msgstr "Ez da «PC Stitch» ereduak erakusteko fitxategia."
+
+#: src/ViewerTab.cpp:131
+#, kde-format
+msgid "Failed to create PDF from data."
+msgstr "Datuetatik PDF sortzea huts egin du."
+
+#: src/ViewerTab.cpp:285
+#, kde-format
+msgid "Printing page %1"
+msgstr "%1 orria inprimatzen"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/ViewerTab.ui:54
+#, kde-format
+msgid "Designed by"
+msgstr "Nork diseinatua"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/ViewerTab.ui:80
+#, kde-format
+msgid "Copyright"
+msgstr "Copyright - egile eskubidea"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/ViewerTab.ui:106
+#, kde-format
+msgid "Licensed to"
+msgstr "Lizentzia honi emana"
