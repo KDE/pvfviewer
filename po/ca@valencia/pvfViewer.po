@@ -54,7 +54,7 @@ msgstr "txemaq@gmail.com"
 #: src/MainWindow.cpp:43
 #, kde-format
 msgid "Export PDF..."
-msgstr "Exporta a PDF..."
+msgstr "Exporta cap a PDF..."
 
 #: src/MainWindow.cpp:62
 #, kde-format
