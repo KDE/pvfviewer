@@ -29,7 +29,7 @@
   <name xml:lang="sk">pvfViewer</name>
   <name xml:lang="sl">pvfViewer</name>
   <name xml:lang="sv">pvfViewer</name>
-  <name xml:lang="tr">pvfViewer</name>
+  <name xml:lang="tr">pvf Görüntüleyicisi</name>
   <name xml:lang="uk">pvfViewer</name>
   <name xml:lang="x-test">xxpvfViewerxx</name>
   <summary>A PC Stitch Pattern Viewer File viewer</summary>
@@ -82,7 +82,7 @@
     <p xml:lang="pt-BR">O pvfViewer é um programa para visualizar e imprimir arquivos do visualizador de padrões PC Stitch que tem a extensão .pvf.</p>
     <p xml:lang="sl">pvfViewer je program za ogled in tiskanje datotek PC Stitch Pattern, ki imajo pripono .pvf.</p>
     <p xml:lang="sv">pvfViewer är ett program för att visa och skriva ut PC Stitch mönstervisningsfiler med filändelsen .pvf.</p>
-    <p xml:lang="tr">pvfViewer, PC Dikiş Deseni Görüntüleyici dosyalarını görüntülemek ve yazdırmak için bir programdır.</p>
+    <p xml:lang="tr">pvf Görüntüleyicisi, PC Dikiş Deseni Görüntüleyici dosyalarını görüntülemek ve yazdırmak için bir programdır.</p>
     <p xml:lang="uk">pvfViewer — програма для перегляду і друку файлів PC Stitch Pattern Viewer, які мають суфікс назви .pvf.</p>
     <p xml:lang="x-test">xxpvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.xx</p>
     <p>Features:</p>
