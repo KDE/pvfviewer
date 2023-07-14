@@ -139,3 +139,5 @@ void MainWindow::closeRequested(int index)
     m_tabWidget->removeTab(index);
     delete viewerTab;
 }
+
+#include "moc_MainWindow.cpp"

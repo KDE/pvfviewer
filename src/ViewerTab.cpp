@@ -310,3 +310,5 @@ void ViewerTab::print()
 
     delete printDialog;
 }
+
+#include "moc_ViewerTab.cpp"
