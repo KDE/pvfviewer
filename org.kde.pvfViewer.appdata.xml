@@ -9,6 +9,7 @@
   <name xml:lang="cs">pvfViewer</name>
   <name xml:lang="de">pvfViewer</name>
   <name xml:lang="en-GB">pvfViewer</name>
+  <name xml:lang="eo">pvfViewer</name>
   <name xml:lang="es">pvfViewer</name>
   <name xml:lang="et">pvfViewer</name>
   <name xml:lang="eu">pvfViewer</name>
@@ -37,6 +38,7 @@
   <summary xml:lang="ca-valencia">Un visor de fitxers de patrons del PC Stitch</summary>
   <summary xml:lang="de">Ein Anzeigeprogramm für PC-Kreuzstich-Muster</summary>
   <summary xml:lang="en-GB">A PC Stitch Pattern Viewer File viewer</summary>
+  <summary xml:lang="eo">Rigardilo por PC-Stitch Pattern Viewer File (ŝablonvidila dosiero)</summary>
   <summary xml:lang="es">Visor de archivos de patrones de PCStitch</summary>
   <summary xml:lang="et">PC Stitchi tikkimismustrite näitaja failinäitaja</summary>
   <summary xml:lang="eu">«PC Stitch» ereduak erakusteko fitxategi erakusle bat</summary>
@@ -64,6 +66,7 @@
     <p xml:lang="ca-valencia">«pvfViewer» és un programa per a visualitzar i imprimir fitxers del visor de patrons del PC Stitch que tinguen una extensió «.pvf».</p>
     <p xml:lang="de">pvfViewer ist ein Programm zum Anzeigen und Drucken von PC-Kreuzstich-Muster-Dateien mit der Erweiterung .pvf.</p>
     <p xml:lang="en-GB">pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
+    <p xml:lang="eo">pvfViewer estas programo por rigardi kaj presi PC-Stitch Pattern Viewer-dosierojn havante finaĵon .pvf.</p>
     <p xml:lang="es">pvfViewer es un programa para ver e imprimir archivos del visor de patrones PCStitch que tienen la extensión .pvf.</p>
     <p xml:lang="et">pvfViewer on rakendus pvf-laiendusega PC Stitchi tikkimismustrite näitaja failide näitamiseks ja trükkimiseks.</p>
     <p xml:lang="eu">pvfViewer «PC Stitch» eredu erakusle fitxategiak, .pvf luzapenekoak, ikusteko eta inprimatzeko programa bat da.</p>
@@ -91,6 +94,7 @@
     <p xml:lang="cs">Vlastnosti:</p>
     <p xml:lang="de">Funktionen:</p>
     <p xml:lang="en-GB">Features:</p>
+    <p xml:lang="eo">Trajtoj:</p>
     <p xml:lang="es">Funcionalidades:</p>
     <p xml:lang="et">Omadused:</p>
     <p xml:lang="eu">Ezaugarriak:</p>
@@ -120,6 +124,7 @@
       <li xml:lang="ca-valencia">Visualització de miniatures de fitxers de patrons</li>
       <li xml:lang="de">Anzeige von Vorschaubildern aus einer Musterdatei</li>
       <li xml:lang="en-GB">Viewing of pattern file thumbnail</li>
+      <li xml:lang="eo">Rigardo al bildeto de ŝablondosiero</li>
       <li xml:lang="es">Visualización de miniaturas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili pisipildi näitamine</li>
       <li xml:lang="eu">Eredu fitxategiaren koadro-txikiak ikustea</li>
@@ -146,6 +151,7 @@
       <li xml:lang="ca-valencia">Vista prèvia de pàgines de fitxers de patrons</li>
       <li xml:lang="de">Anzeige von Seiten aus einer Musterdatei</li>
       <li xml:lang="en-GB">Preview of pattern file pages</li>
+      <li xml:lang="eo">Antaŭrigardo de ŝablondosierpaĝoj</li>
       <li xml:lang="es">Vista previa de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede eelvaatlus</li>
       <li xml:lang="eu">Eredu fitxategiko orriak aurreikustea</li>
@@ -172,6 +178,7 @@
       <li xml:lang="ca-valencia">Impressió de pàgines de fitxers de patrons</li>
       <li xml:lang="de">Ausdruck von Seiten aus einer Musterdatei</li>
       <li xml:lang="en-GB">Printing of pattern file pages</li>
+      <li xml:lang="eo">Presado de ŝablonodosierpaĝoj</li>
       <li xml:lang="es">Impresión de páginas de archivos de patrones</li>
       <li xml:lang="et">Mustrifaili lehekülgede trükkimine</li>
       <li xml:lang="eu">Eredu fitxategiko orriak inprimatzea</li>
