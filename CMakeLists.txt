@@ -40,6 +40,8 @@ set (pvfViewer_SRCS
     src/MainWindow.cpp
     src/ViewerTab.cpp
     src/Thumbnail.cpp
+
+    pvfViewer.qrc
 )
 
 file (GLOB pvfViewer_UI ${CMAKE_CURRENT_SOURCE_DIR}/ui/*.ui)
@@ -74,7 +76,6 @@ if (SILENCE_DEPRECATED)
 endif (SILENCE_DEPRECATED)
 
 install (TARGETS pvfViewer DESTINATION ${KDE_INSTALL_BINDIR})
-install (FILES pvfViewerui.rc DESTINATION ${KDE_INSTALL_KXMLGUI5DIR}/pvfViewer)
 install (FILES org.kde.pvfViewer.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install (FILES org.kde.pvfViewer.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
