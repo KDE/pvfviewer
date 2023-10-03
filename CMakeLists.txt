@@ -66,11 +66,6 @@ target_link_libraries (pvfViewer
     Poppler::Qt5
 )
 
-add_definitions (
-    -DQT_NO_COMPAT
-    -DKDE_NO_COMPAT
-)
-
 if (SILENCE_DEPRECATED)
     add_definitions( -Wno-deprecated-declarations )
 endif (SILENCE_DEPRECATED)
