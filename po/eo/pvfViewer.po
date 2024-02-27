@@ -1,0 +1,114 @@
+# translation of pvfViewer.pot to Esperanto
+# Copyright (C) 2024 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pvfviewer package.
+# Oliver Kellogg <okellogg@users.sourceforge.net>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pvfviewer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"PO-Revision-Date: 2024-02-26 21:30+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
+"Language-Team: Esperanto <kde-i18n-eo.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/Main.cpp:30
+#, kde-format
+msgid "pvfViewer"
+msgstr "pvfViewer"
+
+#: src/Main.cpp:32
+#, kde-format
+msgid "A PC Stitch pvf pattern viewer."
+msgstr ""
+
+#: src/Main.cpp:34
+#, kde-format
+msgid "(c)2020 Steve Allewell"
+msgstr ""
+
+#: src/Main.cpp:40
+#, kde-format
+msgid "Project Lead"
+msgstr "Projektestro"
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: src/MainWindow.cpp:43
+#, kde-format
+msgid "Export PDF..."
+msgstr ""
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Open file"
+msgstr "Malfermi dosieron"
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Pattern Viewer File (*.pvf)"
+msgstr ""
+
+#: src/MainWindow.cpp:98
+#, kde-format
+msgid "Export As..."
+msgstr ""
+
+#: src/MainWindow.cpp:99
+#, kde-format
+msgid "PDF File (*.pdf)"
+msgstr ""
+
+#: src/ViewerTab.cpp:90
+#, kde-format
+msgid "Failed to open source file."
+msgstr ""
+
+#: src/ViewerTab.cpp:98
+#, kde-format
+msgid "Not a PC Stitch Pattern Viewer file."
+msgstr ""
+
+#: src/ViewerTab.cpp:131
+#, kde-format
+msgid "Failed to create PDF from data."
+msgstr ""
+
+#: src/ViewerTab.cpp:285
+#, kde-format
+msgid "Printing page %1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/ViewerTab.ui:54
+#, kde-format
+msgid "Designed by"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/ViewerTab.ui:80
+#, kde-format
+msgid "Copyright"
+msgstr "Kopirajto"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/ViewerTab.ui:106
+#, kde-format
+msgid "Licensed to"
+msgstr ""
