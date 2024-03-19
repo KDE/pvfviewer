@@ -45,7 +45,6 @@ int main(int argc, char *argv[])
 
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);
-    parser.setApplicationDescription(aboutData.shortDescription());
 
     parser.process(app);
     aboutData.processCommandLine(&parser);
