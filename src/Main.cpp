@@ -41,12 +41,7 @@ int main(int argc, char *argv[])
     aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
 
     KAboutData::setApplicationData(aboutData);
-
-    app.setApplicationName(aboutData.componentName());
-    app.setApplicationDisplayName(aboutData.displayName());
     app.setWindowIcon(QIcon::fromTheme(QStringLiteral("pvfViewer")));
-    app.setOrganizationDomain(aboutData.organizationDomain());
-    app.setApplicationVersion(aboutData.version());
 
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);
