@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>org.kde.pvfViewer.desktop</id>
   <metadata_license>FSFAP</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
+  <developer id="org.kde">
+    <name translate="no">KDE</name>
+  </developer>
   <name>pvfViewer</name>
   <name xml:lang="ca">pvfViewer</name>
   <name xml:lang="ca-valencia">pvfViewer</name>
@@ -214,4 +217,5 @@
   <provides>
     <binary>pvfViewer</binary>
   </provides>
+  <launchable type="desktop-id">org.kde.pvfViewer.desktop</launchable>
 </component>
