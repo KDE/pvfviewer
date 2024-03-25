@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:27+0000\n"
-"PO-Revision-Date: 2024-02-26 21:30+0100\n"
+"PO-Revision-Date: 2024-03-24 10:34+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -26,12 +26,12 @@ msgstr "pvfViewer"
 #: src/Main.cpp:32
 #, kde-format
 msgid "A PC Stitch pvf pattern viewer."
-msgstr ""
+msgstr "PC Stitch pvf-ŝablospektilo."
 
 #: src/Main.cpp:34
 #, kde-format
 msgid "(c)2020 Steve Allewell"
-msgstr ""
+msgstr "(c) 2020 Steve Allewell"
 
 #: src/Main.cpp:40
 #, kde-format
@@ -53,7 +53,7 @@ msgstr ""
 #: src/MainWindow.cpp:43
 #, kde-format
 msgid "Export PDF..."
-msgstr ""
+msgstr "Eksporti PDF..."
 
 #: src/MainWindow.cpp:62
 #, kde-format
@@ -63,43 +63,43 @@ msgstr "Malfermi dosieron"
 #: src/MainWindow.cpp:62
 #, kde-format
 msgid "Pattern Viewer File (*.pvf)"
-msgstr ""
+msgstr "Dosiero por Vidilo de Ŝablonoj (*.pvf)"
 
 #: src/MainWindow.cpp:98
 #, kde-format
 msgid "Export As..."
-msgstr ""
+msgstr "Eksporti kiel..."
 
 #: src/MainWindow.cpp:99
 #, kde-format
 msgid "PDF File (*.pdf)"
-msgstr ""
+msgstr "PDF-dosiero (*.pdf)"
 
 #: src/ViewerTab.cpp:90
 #, kde-format
 msgid "Failed to open source file."
-msgstr ""
+msgstr "Malsukcesis malfermi fontdosieron."
 
 #: src/ViewerTab.cpp:98
 #, kde-format
 msgid "Not a PC Stitch Pattern Viewer file."
-msgstr ""
+msgstr "Ne estas dosiero de PC Stitch Pattern Viewer."
 
 #: src/ViewerTab.cpp:131
 #, kde-format
 msgid "Failed to create PDF from data."
-msgstr ""
+msgstr "Malsukcesis krei PDF el datumoj."
 
 #: src/ViewerTab.cpp:285
 #, kde-format
 msgid "Printing page %1"
-msgstr ""
+msgstr "Presanta paĝon %1"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
 msgid "Designed by"
-msgstr ""
+msgstr "Desegnita de"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/ViewerTab.ui:80
@@ -111,4 +111,4 @@ msgstr "Kopirajto"
 #: ui/ViewerTab.ui:106
 #, kde-format
 msgid "Licensed to"
-msgstr ""
+msgstr "Licencita al"
