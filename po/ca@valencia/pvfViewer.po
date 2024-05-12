@@ -54,7 +54,7 @@ msgstr "txemaq@gmail.com"
 #: src/MainWindow.cpp:43
 #, kde-format
 msgid "Export PDF..."
-msgstr "Exporta cap a PDF..."
+msgstr "Exporta cap a PDF…"
 
 #: src/MainWindow.cpp:62
 #, kde-format
@@ -69,7 +69,7 @@ msgstr "Fitxer de visor de patrons (*.pvf)"
 #: src/MainWindow.cpp:98
 #, kde-format
 msgid "Export As..."
-msgstr "Exporta com a..."
+msgstr "Exporta com a…"
 
 #: src/MainWindow.cpp:99
 #, kde-format
