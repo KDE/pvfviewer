@@ -18,7 +18,7 @@
 #include <KLocalizedString>
 
 #include "MainWindow.h"
-
+#include "Version.h"
 
 int main(int argc, char *argv[])
 {
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 
     KAboutData aboutData(QStringLiteral("pvfViewer"),                           // component name
                          QString(i18n("pvfViewer")),                            // display name
-                         QStringLiteral("0.1.0"),                               // version
+                         QStringLiteral(PVFVIEWER_VERSION_STRING),              // version
                          i18n("A PC Stitch pvf pattern viewer."),               // short description
                          KAboutLicense::GPL_V2,                                 // license
                          i18n("(c)2020 Steve Allewell"),                        // copyright

@@ -11,6 +11,7 @@
 
 #include "ViewerTab.h"
 
+#include <QFile>
 #include <QImage>
 #include <QListWidget>
 #include <QPainter>
@@ -77,7 +78,6 @@ void ViewerTab::valueChanged(int value)
 
 ViewerTab::~ViewerTab()
 {
-    delete m_document;
 }
 
 
@@ -129,8 +129,6 @@ int ViewerTab::load(const QUrl &url)
 
     if (!m_document || m_document->isLocked()) {
         KMessageBox::error(nullptr, i18n("Failed to create PDF from data."));
-        delete m_document;
-        m_document = nullptr;
         return -1;
     }
 
@@ -236,13 +234,7 @@ void ViewerTab::print()
 {
     QPrinter printer;
 
-    QList<Poppler::Page *> pages;
-
     int pageCount = m_document->numPages();
-
-    for (int page = 0 ; page < pageCount ; ++page) {
-        pages.append(m_document->page(page));
-    }
 
     printer.setFullPage(true);
     printer.setPrintRange(QPrinter::AllPages);
@@ -253,38 +245,27 @@ void ViewerTab::print()
     if (printDialog->exec() == QDialog::Accepted) {
         int fromPage = 1;
         int toPage   = pageCount;
+	int pageStep = 1;
 
         if (printer.printRange() == QPrinter::PageRange) {
             fromPage = printer.fromPage();
             toPage   = printer.toPage();
         }
 
-        while (toPage < pages.count()) pages.removeLast();
-        while (--fromPage) pages.removeFirst();
+	pageCount = toPage - fromPage + 1;
 
-        int pageCount = pages.count();
-
-        QProgressDialog progress(this);
-        progress.setWindowModality(Qt::WindowModal);
-        progress.setRange(0, pageCount);
+        if (printer.pageOrder() == QPrinter::LastPageFirst) {
+	    std::swap(fromPage, toPage);
+	    pageStep = -1;
+	}
 
         QPainter painter;
         painter.begin(&printer);
 
-        for (int page = 0 ; page < pageCount ; ++page) {
-            if (progress.wasCanceled()) {
-                printer.abort();
-                return;
-            }
+        int page = fromPage;
 
-            if (page > 0) {
-                printer.newPage();
-            }
-
-            progress.setValue(page);
-            progress.setLabelText(i18n("Printing page %1", page+1));
-
-            Poppler::Page *pdfPage = (printer.pageOrder() == QPrinter::FirstPageFirst)?pages.takeFirst():pages.takeLast();
+	for (int printPage = 0 ; printPage < pageCount ; page += pageStep) {
+	    std::unique_ptr<Poppler::Page> pdfPage = m_document->page(page - 1);
 
             if (pdfPage) {
                 QSizeF pageSize  = pdfPage->pageSizeF(); // size in points 1/72 inch
@@ -301,11 +282,13 @@ void ViewerTab::print()
 
                 painter.drawImage(QRectF(QPointF(0, 0), scale * pdfPage->pageSizeF()), image);
             }
+
+	    if (++printPage < pageCount) {
+                printer.newPage();
+	    }
         }
 
         painter.end();
-
-        progress.setValue(pageCount);
     }
 
     delete printDialog;

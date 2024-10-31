@@ -14,7 +14,7 @@
     </para>
     <para>
         Inspiration and some code snippets from <ulink url="https://okular.kde.org/">Okular</ulink> which
-        also uses the Poppler library and its Qt5 interface for displaying PDF documents.
+        also uses the Poppler library and its Qt interface for displaying PDF documents.
     </para>
     <para>
         Tux image attribution: <email>lewing@isc.tamu.edu</email> Larry Ewing and The GIMP.

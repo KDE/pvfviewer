@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.16)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-project (pvfViewer)
+project (pvfViewer VERSION "1.0.0")
 
 find_package (ECM REQUIRED NO_MODULE)
 set (CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
@@ -10,20 +10,21 @@ set (CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 include (KDEInstallDirs)
 include (KDECMakeSettings)
 include (KDECompilerSettings NO_POLICY_SCOPE)
+include (ECMSetupVersion)
 include (ECMInstallIcons)
 include (FeatureSummary)
 
 kde_enable_exceptions ()
 
-find_package (Qt5 CONFIG REQUIRED
+find_package (Qt6 CONFIG REQUIRED
     Core
     PrintSupport
     Widgets
 )
 
-find_package (KF5DocTools)
+find_package (KF6DocTools)
 
-find_package (KF5 REQUIRED COMPONENTS
+find_package (KF6 REQUIRED COMPONENTS
     I18n
     KIO
     WidgetsAddons
@@ -31,9 +32,14 @@ find_package (KF5 REQUIRED COMPONENTS
 )
 
 find_package (SharedMimeInfo)
-find_package (Poppler REQUIRED COMPONENTS Qt5)
+find_package (Poppler REQUIRED COMPONENTS Qt6)
 
 include_directories (BEFORE ${CMAKE_CURENT_BINARY_DIR})
+
+ecm_setup_version(${pvfViewer_VERSION}
+    VARIABLE_PREFIX PVFVIEWER
+    VERSION_HEADER Version.h
+)
 
 set (pvfViewer_SRCS
     src/Main.cpp
@@ -47,23 +53,23 @@ set (pvfViewer_SRCS
 file (GLOB pvfViewer_UI ${CMAKE_CURRENT_SOURCE_DIR}/ui/*.ui)
 ki18n_wrap_ui (pvfViewer_SRCS ${pvfViewer_UI})
 
-if (KF5DocTools_FOUND)
+if (KF6DocTools_FOUND)
     add_subdirectory (doc)
-endif (KF5DocTools_FOUND)
+endif (KF6DocTools_FOUND)
 
 ecm_install_icons (ICONS sc-apps-pvfViewer.svgz sc-mimetypes-application-x-pvf.svgz DESTINATION ${KDE_INSTALL_ICONDIR})
 
 add_executable (pvfViewer ${pvfViewer_SRCS})
 
 target_link_libraries (pvfViewer
-    Qt5::Core
-    Qt5::PrintSupport
-    Qt5::Widgets
-    KF5::I18n
-    KF5::KIOFileWidgets
-    KF5::WidgetsAddons
-    KF5::XmlGui
-    Poppler::Qt5
+    Qt6::Core
+    Qt6::PrintSupport
+    Qt6::Widgets
+    KF6::I18n
+    KF6::KIOFileWidgets
+    KF6::WidgetsAddons
+    KF6::XmlGui
+    Poppler::Qt6
 )
 
 if (SILENCE_DEPRECATED)

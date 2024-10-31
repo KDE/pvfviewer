@@ -14,16 +14,15 @@
 #include <QPainter>
 
 
-Thumbnail::Thumbnail(Poppler::Page *pdfPage, QListWidget *parent)
+Thumbnail::Thumbnail(std::unique_ptr<Poppler::Page> pdfPage, QListWidget *parent)
     :   QListWidgetItem(parent, QListWidgetItem::UserType),
-        m_pdfPage(pdfPage)
+        m_pdfPage(std::move(pdfPage))
 {
 }
 
 
 Thumbnail::~Thumbnail()
 {
-    delete m_pdfPage;
 }
 
 

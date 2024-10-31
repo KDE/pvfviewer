@@ -18,7 +18,7 @@
 #include <QTimer>
 #include <QWidget>
 
-#include <poppler-qt5.h>
+#include <poppler-qt6.h>
 
 #include "ui_ViewerTab.h"
 
@@ -57,7 +57,7 @@ protected:
 private:
     Ui::ViewerTab   ui;
 
-    Poppler::Document *m_document;
+    std::unique_ptr<Poppler::Document> m_document;
 
     QByteArray      m_pdfData;
     QPixmap         m_pixmap;

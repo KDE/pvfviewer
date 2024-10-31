@@ -15,7 +15,7 @@
 
 #include <QListWidgetItem>
 
-#include <poppler-qt5.h>
+#include <poppler-qt6.h>
 
 
 class QImage;
@@ -24,7 +24,7 @@ class QImage;
 class Thumbnail : public QListWidgetItem
 {
 public:
-    Thumbnail(Poppler::Page *pdfPage, QListWidget *parent);
+    Thumbnail(std::unique_ptr<Poppler::Page> pdfPage, QListWidget *parent);
     ~Thumbnail();
 
     QImage image() const;
@@ -38,7 +38,7 @@ public slots:
     void setImage(const QImage &image);
 
 private:
-    Poppler::Page   *m_pdfPage;
+    std::unique_ptr<Poppler::Page>   m_pdfPage;
     QImage          m_image;
 };
 
