@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"POT-Creation-Date: 2024-11-01 01:47+0000\n"
 "PO-Revision-Date: 2020-04-02 01:01+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -89,11 +89,6 @@ msgstr "PC Stitch 패턴 뷰어 파일이 아닙니다."
 msgid "Failed to create PDF from data."
 msgstr "데이터에서 PDF를 만들 수 없습니다."
 
-#: src/ViewerTab.cpp:285
-#, kde-format
-msgid "Printing page %1"
-msgstr "%1쪽 인쇄 중"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
@@ -111,3 +106,6 @@ msgstr "저작권"
 #, kde-format
 msgid "Licensed to"
 msgstr "라이선스:"
+
+#~ msgid "Printing page %1"
+#~ msgstr "%1쪽 인쇄 중"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"POT-Creation-Date: 2024-11-01 01:47+0000\n"
 "PO-Revision-Date: 2020-04-01 03:26+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -88,11 +88,6 @@ msgstr ""
 #: src/ViewerTab.cpp:131
 #, kde-format
 msgid "Failed to create PDF from data."
-msgstr ""
-
-#: src/ViewerTab.cpp:285
-#, kde-format
-msgid "Printing page %1"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)

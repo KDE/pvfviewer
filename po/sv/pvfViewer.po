@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"POT-Creation-Date: 2024-11-01 01:47+0000\n"
 "PO-Revision-Date: 2020-04-02 21:14+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -89,11 +89,6 @@ msgstr "Inte en PC Stitch mönstervisningsfil."
 msgid "Failed to create PDF from data."
 msgstr "Misslyckades skapa PDF från data."
 
-#: src/ViewerTab.cpp:285
-#, kde-format
-msgid "Printing page %1"
-msgstr "Skriver ut sida %1"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
@@ -111,3 +106,6 @@ msgstr "Copyright"
 #, kde-format
 msgid "Licensed to"
 msgstr "Licenserad till"
+
+#~ msgid "Printing page %1"
+#~ msgstr "Skriver ut sida %1"

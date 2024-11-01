@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pvfViewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"POT-Creation-Date: 2024-11-01 01:47+0000\n"
 "PO-Revision-Date: 2021-05-27 04:52+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -88,11 +88,6 @@ msgstr "Keine PC-Kreuzstich-Musterdatei."
 msgid "Failed to create PDF from data."
 msgstr "PDF-Ausgabe können aus den Daten nicht erstellt werden."
 
-#: src/ViewerTab.cpp:285
-#, kde-format
-msgid "Printing page %1"
-msgstr "Seite %1 wird gedruckt"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
@@ -110,3 +105,6 @@ msgstr "Copyright"
 #, kde-format
 msgid "Licensed to"
 msgstr "Lizenz"
+
+#~ msgid "Printing page %1"
+#~ msgstr "Seite %1 wird gedruckt"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pvfViewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"POT-Creation-Date: 2024-11-01 01:47+0000\n"
 "PO-Revision-Date: 2020-04-01 14:03+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -91,11 +91,6 @@ msgstr "No es un archivo del visor de patrones PCStitch."
 msgid "Failed to create PDF from data."
 msgstr "No se ha podido crear el PDF a partir de los datos."
 
-#: src/ViewerTab.cpp:285
-#, kde-format
-msgid "Printing page %1"
-msgstr "Imprimiendo página %1"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
@@ -113,3 +108,6 @@ msgstr "Derechos de autor"
 #, kde-format
 msgid "Licensed to"
 msgstr "Licenciado para"
+
+#~ msgid "Printing page %1"
+#~ msgstr "Imprimiendo página %1"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"POT-Creation-Date: 2024-11-01 01:47+0000\n"
 "PO-Revision-Date: 2021-05-09 07:00+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -89,11 +89,6 @@ msgstr "Nie jest to plik przeglądarki wzorców dzierganych PC."
 msgid "Failed to create PDF from data."
 msgstr "Nie udało się utworzyć PDFa z danych."
 
-#: src/ViewerTab.cpp:285
-#, kde-format
-msgid "Printing page %1"
-msgstr "Drukowanie strony %1"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
@@ -111,3 +106,6 @@ msgstr "Prawa autorskie"
 #, kde-format
 msgid "Licensed to"
 msgstr "Wylicencjonowane do"
+
+#~ msgid "Printing page %1"
+#~ msgstr "Drukowanie strony %1"

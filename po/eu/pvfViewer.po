@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"POT-Creation-Date: 2024-11-01 01:47+0000\n"
 "PO-Revision-Date: 2023-01-29 20:48+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -92,11 +92,6 @@ msgstr "Ez da «PC Stitch» ereduak erakusteko fitxategia."
 msgid "Failed to create PDF from data."
 msgstr "Datuetatik PDF sortzea huts egin du."
 
-#: src/ViewerTab.cpp:285
-#, kde-format
-msgid "Printing page %1"
-msgstr "%1 orria inprimatzen"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
@@ -114,3 +109,6 @@ msgstr "Copyright - egile eskubidea"
 #, kde-format
 msgid "Licensed to"
 msgstr "Lizentzia honi emana"
+
+#~ msgid "Printing page %1"
+#~ msgstr "%1 orria inprimatzen"

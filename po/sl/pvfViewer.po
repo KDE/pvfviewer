@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"POT-Creation-Date: 2024-11-01 01:47+0000\n"
 "PO-Revision-Date: 2020-06-15 11:26+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -90,11 +90,6 @@ msgstr "Ni datoteka vzorca PC Stitch."
 msgid "Failed to create PDF from data."
 msgstr "Ustvarjanje PDF iz podatkov ni uspelo."
 
-#: src/ViewerTab.cpp:285
-#, kde-format
-msgid "Printing page %1"
-msgstr "Tiskam stran %1"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
@@ -112,3 +107,6 @@ msgstr "Copyright"
 #, kde-format
 msgid "Licensed to"
 msgstr "Licencirano za"
+
+#~ msgid "Printing page %1"
+#~ msgstr "Tiskam stran %1"
