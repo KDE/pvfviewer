@@ -52,27 +52,27 @@ msgstr "emir_sari@icloud.com"
 #: src/MainWindow.cpp:43
 #, kde-format
 msgid "Export PDF..."
-msgstr "PDF Olarak Dışa Aktar..."
+msgstr "PDF Olarak Dışa Aktar…"
 
 #: src/MainWindow.cpp:62
 #, kde-format
 msgid "Open file"
-msgstr "Dosya aç"
+msgstr "Dosya Aç"
 
 #: src/MainWindow.cpp:62
 #, kde-format
 msgid "Pattern Viewer File (*.pvf)"
-msgstr "Desen Görüntüleyicisi Dosyası (*.pvf)"
+msgstr "Desen Görüntüleyicisi dosyası (*.pvf)"
 
 #: src/MainWindow.cpp:98
 #, kde-format
 msgid "Export As..."
-msgstr "Farklı Dışa Aktar..."
+msgstr "Farklı Dışa Aktar…"
 
 #: src/MainWindow.cpp:99
 #, kde-format
 msgid "PDF File (*.pdf)"
-msgstr "PDF Dosyası (*.pdf)"
+msgstr "PDF dosyası (*.pdf)"
 
 #: src/ViewerTab.cpp:90
 #, kde-format
@@ -105,7 +105,4 @@ msgstr "Telif hakkı"
 #: ui/ViewerTab.ui:106
 #, kde-format
 msgid "Licensed to"
-msgstr "Lisans"
-
-#~ msgid "Printing page %1"
-#~ msgstr "Sayfa %1 yazdırılıyor"
+msgstr "Lisanslanan"

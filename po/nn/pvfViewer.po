@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:27+0000\n"
+"POT-Creation-Date: 2024-11-01 01:47+0000\n"
 "PO-Revision-Date: 2021-02-21 16:19+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -91,11 +91,6 @@ msgstr "Er ikkje ei PC Stitch-mønstervisarfil."
 #, kde-format
 msgid "Failed to create PDF from data."
 msgstr "Klarte ikkje laga PDF frå data."
-
-#: src/ViewerTab.cpp:285
-#, kde-format
-msgid "Printing page %1"
-msgstr "Skriv ut side %1"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
