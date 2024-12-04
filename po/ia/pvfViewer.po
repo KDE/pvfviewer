@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-03 00:38+0000\n"
-"PO-Revision-Date: 2024-11-04 18:08+0100\n"
+"PO-Revision-Date: 2024-12-03 17:04+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -26,6 +26,7 @@ msgstr "pvfViewer"
 #, kde-format
 msgid "A PC Stitch pvf pattern viewer."
 msgstr ""
+"Un PC Stitch Pattern Viewer (un spectator o visor de patrono de malia de PC)."
 
 #: src/Main.cpp:34
 #, kde-format
@@ -35,7 +36,7 @@ msgstr "(c)2020 Steve Allewell"
 #: src/Main.cpp:40
 #, kde-format
 msgid "Project Lead"
-msgstr ""
+msgstr "Chefe de projecto"
 
 #: src/Main.cpp:41
 #, kde-format
@@ -77,23 +78,23 @@ msgstr "File PDF  (*.pdf)"
 #: src/ViewerTab.cpp:90
 #, kde-format
 msgid "Failed to open source file."
-msgstr ""
+msgstr "Falleva a aperir file de fonte."
 
 #: src/ViewerTab.cpp:98
 #, kde-format
 msgid "Not a PC Stitch Pattern Viewer file."
-msgstr ""
+msgstr "Non es un file de  PC Stitch Pattern Viewer."
 
 #: src/ViewerTab.cpp:131
 #, kde-format
 msgid "Failed to create PDF from data."
-msgstr ""
+msgstr "Falleva a crear PDF ex datos."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
 msgid "Designed by"
-msgstr ""
+msgstr "Designate per"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/ViewerTab.ui:80
@@ -105,4 +106,4 @@ msgstr "Copyright"
 #: ui/ViewerTab.ui:106
 #, kde-format
 msgid "Licensed to"
-msgstr ""
+msgstr "Licentiate a "
