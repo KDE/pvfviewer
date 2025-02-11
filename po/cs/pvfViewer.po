@@ -106,6 +106,3 @@ msgstr "Autorská práva"
 #, kde-format
 msgid "Licensed to"
 msgstr ""
-
-#~ msgid "Printing page %1"
-#~ msgstr "Tisknu stranu %1"
