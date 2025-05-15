@@ -7,6 +7,7 @@
     <name translate="no">KDE</name>
   </developer>
   <name>pvfViewer</name>
+  <name xml:lang="ar">عارض الغرز</name>
   <name xml:lang="ca">pvfViewer</name>
   <name xml:lang="ca-valencia">pvfViewer</name>
   <name xml:lang="cs">pvfViewer</name>
@@ -41,6 +42,7 @@
   <name xml:lang="uk">pvfViewer</name>
   <name xml:lang="x-test">xxpvfViewerxx</name>
   <summary>A PC Stitch Pattern Viewer File viewer</summary>
+  <summary xml:lang="ar">عارض أنماط الغرز بالحاسوب الشخصي</summary>
   <summary xml:lang="ca">Un visualitzador de fitxers de patrons del PC Stitch</summary>
   <summary xml:lang="ca-valencia">Un visor de fitxers de patrons del PC Stitch</summary>
   <summary xml:lang="de">Ein Anzeigeprogramm für PC-Kreuzstich-Muster</summary>
@@ -73,6 +75,7 @@
   <summary xml:lang="x-test">xxA PC Stitch Pattern Viewer File viewerxx</summary>
   <description>
     <p>pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
+    <p xml:lang="ar">عارض الغرز هو برنامج لعرض وطباعة ملفات PC Stitch Pattern Viewer التي تحتوي على ملحق .pvf.</p>
     <p xml:lang="ca">El «pvfViewer» és un programa per a visualitzar i imprimir fitxers del visualitzador de patrons del PC Stitch que tinguin una extensió «.pvf».</p>
     <p xml:lang="ca-valencia">«pvfViewer» és un programa per a visualitzar i imprimir fitxers del visor de patrons del PC Stitch que tinguen una extensió «.pvf».</p>
     <p xml:lang="de">pvfViewer ist ein Programm zum Anzeigen und Drucken von PC-Kreuzstich-Muster-Dateien mit der Erweiterung .pvf.</p>
@@ -104,6 +107,7 @@
     <p xml:lang="uk">pvfViewer — програма для перегляду і друку файлів PC Stitch Pattern Viewer, які мають суфікс назви .pvf.</p>
     <p xml:lang="x-test">xxpvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.xx</p>
     <p>Features:</p>
+    <p xml:lang="ar">الميزات:</p>
     <p xml:lang="ca">Característiques:</p>
     <p xml:lang="ca-valencia">Característiques:</p>
     <p xml:lang="cs">Vlastnosti:</p>
@@ -139,6 +143,7 @@
     <p xml:lang="x-test">xxFeatures:xx</p>
     <ul>
       <li>Viewing of pattern file thumbnail</li>
+      <li xml:lang="ar">عرض الصورة المصغرة لملف النمط</li>
       <li xml:lang="ca">Visualització de miniatures de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Visualització de miniatures de fitxers de patrons</li>
       <li xml:lang="de">Anzeige von Vorschaubildern aus einer Musterdatei</li>
@@ -170,6 +175,7 @@
       <li xml:lang="uk">Перегляд мініатюр файлів візерунків</li>
       <li xml:lang="x-test">xxViewing of pattern file thumbnailxx</li>
       <li>Preview of pattern file pages</li>
+      <li xml:lang="ar">معاينة صفحات ملفات الأنماط</li>
       <li xml:lang="ca">Vista prèvia de pàgines de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Vista prèvia de pàgines de fitxers de patrons</li>
       <li xml:lang="de">Anzeige von Seiten aus einer Musterdatei</li>
@@ -201,6 +207,7 @@
       <li xml:lang="uk">Попередній перегляд сторінок файлів візерунків</li>
       <li xml:lang="x-test">xxPreview of pattern file pagesxx</li>
       <li>Printing of pattern file pages</li>
+      <li xml:lang="ar">طباعة صفحات ملفات الأنماط</li>
       <li xml:lang="ca">Impressió de pàgines de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Impressió de pàgines de fitxers de patrons</li>
       <li xml:lang="de">Ausdruck von Seiten aus einer Musterdatei</li>
