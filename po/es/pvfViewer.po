@@ -1,15 +1,15 @@
 # Spanish translations for pvfViewer.po package.
-# Copyright (C) 2020 This file is copyright:
+# Copyright (C) 2020-2025 This file is copyright:
 # This file is distributed under the same license as the pvfviewer package.
-#
 # Automatically generated, 2020.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2020.
+#
+# SPDX-FileCopyrightText: 2020, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: pvfViewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:50+0000\n"
-"PO-Revision-Date: 2020-04-01 14:03+0200\n"
+"PO-Revision-Date: 2025-12-08 12:05+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -54,7 +54,7 @@ msgstr "ecuadra@eloihr.net"
 #: src/MainWindow.cpp:43
 #, kde-format
 msgid "Export PDF..."
-msgstr "Exportar a PDF..."
+msgstr "Exportar a PDF…"
 
 #: src/MainWindow.cpp:62
 #, kde-format
@@ -69,7 +69,7 @@ msgstr "Archivo del visor de patrones (*.pvf)"
 #: src/MainWindow.cpp:98
 #, kde-format
 msgid "Export As..."
-msgstr "Exportar como..."
+msgstr "Exportar como…"
 
 #: src/MainWindow.cpp:99
 #, kde-format
@@ -108,6 +108,3 @@ msgstr "Derechos de autor"
 #, kde-format
 msgid "Licensed to"
 msgstr "Licenciado para"
-
-#~ msgid "Printing page %1"
-#~ msgstr "Imprimiendo página %1"
