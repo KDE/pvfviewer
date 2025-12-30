@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the pvfviewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pvfviewer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Main.cpp:30
+#, kde-format
+msgid "pvfViewer"
+msgstr ""
+
+#: src/Main.cpp:32
+#, kde-format
+msgid "A PC Stitch pvf pattern viewer."
+msgstr ""
+
+#: src/Main.cpp:34
+#, kde-format
+msgid "(c)2020 Steve Allewell"
+msgstr ""
+
+#: src/Main.cpp:40
+#, kde-format
+msgid "Project Lead"
+msgstr ""
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: src/MainWindow.cpp:43
+#, kde-format
+msgid "Export PDF..."
+msgstr ""
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Open file"
+msgstr ""
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Pattern Viewer File (*.pvf)"
+msgstr ""
+
+#: src/MainWindow.cpp:98
+#, kde-format
+msgid "Export As..."
+msgstr ""
+
+#: src/MainWindow.cpp:99
+#, kde-format
+msgid "PDF File (*.pdf)"
+msgstr ""
+
+#: src/ViewerTab.cpp:90
+#, kde-format
+msgid "Failed to open source file."
+msgstr ""
+
+#: src/ViewerTab.cpp:98
+#, kde-format
+msgid "Not a PC Stitch Pattern Viewer file."
+msgstr ""
+
+#: src/ViewerTab.cpp:131
+#, kde-format
+msgid "Failed to create PDF from data."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/ViewerTab.ui:54
+#, kde-format
+msgid "Designed by"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/ViewerTab.ui:80
+#, kde-format
+msgid "Copyright"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/ViewerTab.ui:106
+#, kde-format
+msgid "Licensed to"
+msgstr ""
