@@ -79,7 +79,7 @@ msgstr "Fitxer PDF (*.pdf)"
 #: src/ViewerTab.cpp:90
 #, kde-format
 msgid "Failed to open source file."
-msgstr "No s'ha pogut obrir el fitxer de codi font."
+msgstr "Ha fallat mentre s'obria el fitxer de codi font."
 
 #: src/ViewerTab.cpp:98
 #, kde-format
@@ -89,7 +89,7 @@ msgstr "No és un fitxer de visor de patrons del PC Stitch."
 #: src/ViewerTab.cpp:131
 #, kde-format
 msgid "Failed to create PDF from data."
-msgstr "No s'ha pogut crear PDF a partir de les dades."
+msgstr "Ha fallat mentre es creava un PDF a partir de les dades."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
