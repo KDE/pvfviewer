@@ -66,6 +66,7 @@
   <summary xml:lang="pl">Przeglądarka wzorców dzierganych PC</summary>
   <summary xml:lang="pt">Um visualizador de ficheiros do Visualizador de Padrões do PC Stitch</summary>
   <summary xml:lang="pt-BR">Um visualizador de arquivos de padrões PC Stitch</summary>
+  <summary xml:lang="ru">Просмотр файлов схем для вышивки PC Stitch</summary>
   <summary xml:lang="sa">एकः PC Stitch Pattern Viewer सञ्चिकादर्शकः</summary>
   <summary xml:lang="sl">Pregledovalnik datotek vzorcev PC Stitch</summary>
   <summary xml:lang="sv">Ett visningsprogram av PC Stitch mönsterfiler.</summary>
@@ -98,6 +99,7 @@
     <p xml:lang="pl">pvfViewer jest programem do oglądania i drukowania plików przeglądarki wzorców dzierganych PC, które mają rozszerzenie .pvf.</p>
     <p xml:lang="pt">O pvfViewer é um programa para ver e imprimir os ficheiros do Visualizador de Padrões do PC Stitch que têm uma extensão .pvf.</p>
     <p xml:lang="pt-BR">O pvfViewer é um programa para visualizar e imprimir arquivos do visualizador de padrões PC Stitch que tem a extensão .pvf.</p>
+    <p xml:lang="ru">pvfViewer — приложение для просмотра и печати файлов PC Stitch Pattern Viewer с расширением .pvf.</p>
     <p xml:lang="sa">pvfViewer इति .pvf विस्तारयुक्तानि PC Stitch Pattern Viewer सञ्चिकाः द्रष्टुं मुद्रयितुं च एकः कार्यक्रमः अस्ति ।</p>
     <p xml:lang="sl">pvfViewer je program za ogled in tiskanje datotek PC Stitch Pattern, ki imajo pripono .pvf.</p>
     <p xml:lang="sv">pvfViewer är ett program för att visa och skriva ut PC Stitch mönstervisningsfiler med filändelsen .pvf.</p>
@@ -164,6 +166,7 @@
       <li xml:lang="pl">Oglądanie miniatury pliku wzorca</li>
       <li xml:lang="pt">Visualização em miniatura do ficheiro do padrão</li>
       <li xml:lang="pt-BR">Visualizando a miniatura do arquivo de padrão</li>
+      <li xml:lang="ru">Просмотр эскиза файла шаблона;</li>
       <li xml:lang="sa">प्रतिरूपसञ्चिकायाः लघुचित्रस्य दर्शनम्</li>
       <li xml:lang="sl">Predogled datoteke vzorcev</li>
       <li xml:lang="sv">Visning av miniatyrbild i mönsterfil</li>
@@ -195,6 +198,7 @@
       <li xml:lang="pl">Podgląd stron pliku wzorca</li>
       <li xml:lang="pt">Antevisão das páginas de ficheiros de padrões</li>
       <li xml:lang="pt-BR">Visualização das páginas do arquivo de padrão</li>
+      <li xml:lang="ru">Предпросмотр страниц файла шаблонов;</li>
       <li xml:lang="sa">प्रतिरूपसञ्चिकापृष्ठानां पूर्वावलोकनम्</li>
       <li xml:lang="sl">Predogled strani vzorcev</li>
       <li xml:lang="sv">Förhandsgranskning av sidor i mönsterfil</li>
@@ -226,6 +230,7 @@
       <li xml:lang="pl">Drukowanie stron pliku wzorca</li>
       <li xml:lang="pt">Impressão das páginas de ficheiros de padrões</li>
       <li xml:lang="pt-BR">Imprimindo as páginas do arquivo de padrão</li>
+      <li xml:lang="ru">Печать страниц файла шаблона;</li>
       <li xml:lang="sa">प्रतिरूपसञ्चिकापृष्ठानां मुद्रणम्</li>
       <li xml:lang="sl">Tiskanje strani vzorcev</li>
       <li xml:lang="sv">Utskrift av sidor i mönsterfil</li>
