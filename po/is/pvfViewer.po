@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2026 This file is copyright:
 # This file is distributed under the same license as the pvfviewer package.
 #
-# Sveinn í Felli <sv1@fellsnet.is>, 2022.
+# SPDX-FileCopyrightText: 2022, 2026 Sveinn í Felli <sv1@fellsnet.is>
 msgid ""
 msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:50+0000\n"
-"PO-Revision-Date: 2022-08-22 18:05+0000\n"
+"PO-Revision-Date: 2026-03-10 17:20+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: src/Main.cpp:30
 #, kde-format
@@ -25,7 +25,7 @@ msgstr "pvfViewer"
 #: src/Main.cpp:32
 #, kde-format
 msgid "A PC Stitch pvf pattern viewer."
-msgstr ""
+msgstr "Mynsturskoðari fyrir PC Stitch pvf mynstur."
 
 #: src/Main.cpp:34
 #, kde-format
@@ -62,7 +62,7 @@ msgstr "Opna skrá"
 #: src/MainWindow.cpp:62
 #, kde-format
 msgid "Pattern Viewer File (*.pvf)"
-msgstr ""
+msgstr "Mynsturskoðunarskrá (*.pvf)"
 
 #: src/MainWindow.cpp:98
 #, kde-format
@@ -77,17 +77,17 @@ msgstr "PDF-skrá (*.pdf)"
 #: src/ViewerTab.cpp:90
 #, kde-format
 msgid "Failed to open source file."
-msgstr ""
+msgstr "Mistókst að opna upprunaskrá."
 
 #: src/ViewerTab.cpp:98
 #, kde-format
 msgid "Not a PC Stitch Pattern Viewer file."
-msgstr ""
+msgstr "Er ekki PC Stitch mynsturskoðunarskrá."
 
 #: src/ViewerTab.cpp:131
 #, kde-format
 msgid "Failed to create PDF from data."
-msgstr ""
+msgstr "Mistókst að búa til PDF úr gögnum."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
