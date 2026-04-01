@@ -1,0 +1,109 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the pvfviewer package.
+# SPDX-FileCopyrightText: 2026 Sergiu Bivol <sergiu@cip.md>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pvfviewer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-03-31 14:05+0100\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: src/Main.cpp:30
+#, kde-format
+msgid "pvfViewer"
+msgstr "pvfViewer"
+
+#: src/Main.cpp:32
+#, kde-format
+msgid "A PC Stitch pvf pattern viewer."
+msgstr ""
+
+#: src/Main.cpp:34
+#, kde-format
+msgid "(c)2020 Steve Allewell"
+msgstr "(c)2020 Steve Allewell"
+
+#: src/Main.cpp:40
+#, kde-format
+msgid "Project Lead"
+msgstr "Conducător de proiect"
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sergiu Bivol"
+
+#: src/Main.cpp:41
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sergiu@cip.md"
+
+#: src/MainWindow.cpp:43
+#, kde-format
+msgid "Export PDF..."
+msgstr "Exportă PDF…"
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Open file"
+msgstr "Deschide fișier"
+
+#: src/MainWindow.cpp:62
+#, kde-format
+msgid "Pattern Viewer File (*.pvf)"
+msgstr ""
+
+#: src/MainWindow.cpp:98
+#, kde-format
+msgid "Export As..."
+msgstr "Exportă ca…"
+
+#: src/MainWindow.cpp:99
+#, kde-format
+msgid "PDF File (*.pdf)"
+msgstr "Fișier PDF (*.pdf)"
+
+#: src/ViewerTab.cpp:90
+#, kde-format
+msgid "Failed to open source file."
+msgstr "Deschiderea fișierului-sursă a eșuat."
+
+#: src/ViewerTab.cpp:98
+#, kde-format
+msgid "Not a PC Stitch Pattern Viewer file."
+msgstr ""
+
+#: src/ViewerTab.cpp:131
+#, kde-format
+msgid "Failed to create PDF from data."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/ViewerTab.ui:54
+#, kde-format
+msgid "Designed by"
+msgstr "Proiectat de"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/ViewerTab.ui:80
+#, kde-format
+msgid "Copyright"
+msgstr "Drept de autor"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/ViewerTab.ui:106
+#, kde-format
+msgid "Licensed to"
+msgstr "Licențiat pentru"
