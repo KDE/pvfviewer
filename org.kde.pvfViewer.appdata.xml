@@ -71,6 +71,7 @@
   <summary xml:lang="pt-BR">Um visualizador de arquivos de padrões PC Stitch</summary>
   <summary xml:lang="ru">Просмотр файлов схем для вышивки PC Stitch</summary>
   <summary xml:lang="sa">एकः PC Stitch Pattern Viewer सञ्चिकादर्शकः</summary>
+  <summary xml:lang="sk">Prehliadač súborov PC Stitch Pattern Viewer</summary>
   <summary xml:lang="sl">Pregledovalnik datotek vzorcev PC Stitch</summary>
   <summary xml:lang="sv">Ett visningsprogram av PC Stitch mönsterfiler.</summary>
   <summary xml:lang="tr">Bir PC Dikiş Deseni Görüntüleyicisi</summary>
@@ -106,6 +107,7 @@
     <p xml:lang="pt-BR">O pvfViewer é um programa para visualizar e imprimir arquivos do visualizador de padrões PC Stitch que tem a extensão .pvf.</p>
     <p xml:lang="ru">pvfViewer — приложение для просмотра и печати файлов PC Stitch Pattern Viewer с расширением .pvf.</p>
     <p xml:lang="sa">pvfViewer इति .pvf विस्तारयुक्तानि PC Stitch Pattern Viewer सञ्चिकाः द्रष्टुं मुद्रयितुं च एकः कार्यक्रमः अस्ति ।</p>
+    <p xml:lang="sk">pvfViewer je program na zobrazovanie a tlač súborov PC Stitch Pattern Viewer s príponou .pvf.</p>
     <p xml:lang="sl">pvfViewer je program za ogled in tiskanje datotek PC Stitch Pattern, ki imajo pripono .pvf.</p>
     <p xml:lang="sv">pvfViewer är ett program för att visa och skriva ut PC Stitch mönstervisningsfiler med filändelsen .pvf.</p>
     <p xml:lang="tr">pvf Görüntüleyicisi, PC Dikiş Deseni Görüntüleyici dosyalarını görüntülemek ve yazdırmak için bir programdır.</p>
@@ -177,6 +179,7 @@
       <li xml:lang="pt-BR">Visualizando a miniatura do arquivo de padrão</li>
       <li xml:lang="ru">Просмотр эскиза файла шаблона;</li>
       <li xml:lang="sa">प्रतिरूपसञ्चिकायाः लघुचित्रस्य दर्शनम्</li>
+      <li xml:lang="sk">Zobrazenie miniatúry súboru vzoru</li>
       <li xml:lang="sl">Predogled datoteke vzorcev</li>
       <li xml:lang="sv">Visning av miniatyrbild i mönsterfil</li>
       <li xml:lang="tr">Desen dosyası küçük görselini görüntüleme</li>
@@ -211,6 +214,7 @@
       <li xml:lang="pt-BR">Visualização das páginas do arquivo de padrão</li>
       <li xml:lang="ru">Предпросмотр страниц файла шаблонов;</li>
       <li xml:lang="sa">प्रतिरूपसञ्चिकापृष्ठानां पूर्वावलोकनम्</li>
+      <li xml:lang="sk">Náhľad stránok súboru vzoru</li>
       <li xml:lang="sl">Predogled strani vzorcev</li>
       <li xml:lang="sv">Förhandsgranskning av sidor i mönsterfil</li>
       <li xml:lang="tr">Desen dosyası sayfalarının önizlemesi</li>
@@ -245,6 +249,7 @@
       <li xml:lang="pt-BR">Imprimindo as páginas do arquivo de padrão</li>
       <li xml:lang="ru">Печать страниц файла шаблона;</li>
       <li xml:lang="sa">प्रतिरूपसञ्चिकापृष्ठानां मुद्रणम्</li>
+      <li xml:lang="sk">Tlač stránok súboru vzoru</li>
       <li xml:lang="sl">Tiskanje strani vzorcev</li>
       <li xml:lang="sv">Utskrift av sidor i mönsterfil</li>
       <li xml:lang="tr">Desen dosyası sayfalarının yazdırılması</li>
