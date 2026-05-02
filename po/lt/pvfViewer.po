@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pvfviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:50+0000\n"
-"PO-Revision-Date: 2020-04-01 03:26+0200\n"
+"PO-Revision-Date: 2026-05-01 14:26+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -17,93 +17,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.8\n"
 
 #: src/Main.cpp:30
 #, kde-format
 msgid "pvfViewer"
-msgstr ""
+msgstr "pvfViewer"
 
 #: src/Main.cpp:32
 #, kde-format
 msgid "A PC Stitch pvf pattern viewer."
-msgstr ""
+msgstr "Kompiuterinio siuvinėjimo pvf rašto žiūryklė."
 
 #: src/Main.cpp:34
 #, kde-format
 msgid "(c)2020 Steve Allewell"
-msgstr ""
+msgstr "(c)2020 Steve Allewell"
 
 #: src/Main.cpp:40
 #, kde-format
 msgid "Project Lead"
-msgstr ""
+msgstr "Projekto vadovas"
 
 #: src/Main.cpp:41
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Moo"
 
 #: src/Main.cpp:41
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "<>"
 
 #: src/MainWindow.cpp:43
 #, kde-format
 msgid "Export PDF..."
-msgstr ""
+msgstr "Eksportuoti PDF..."
 
 #: src/MainWindow.cpp:62
 #, kde-format
 msgid "Open file"
-msgstr ""
+msgstr "Atverti failą"
 
 #: src/MainWindow.cpp:62
 #, kde-format
 msgid "Pattern Viewer File (*.pvf)"
-msgstr ""
+msgstr "Rašto žiūryklės failas (*.pvf)"
 
 #: src/MainWindow.cpp:98
 #, kde-format
 msgid "Export As..."
-msgstr ""
+msgstr "Eksportuoti kaip..."
 
 #: src/MainWindow.cpp:99
 #, kde-format
 msgid "PDF File (*.pdf)"
-msgstr ""
+msgstr "PDF failas (*.pdf)"
 
 #: src/ViewerTab.cpp:90
 #, kde-format
 msgid "Failed to open source file."
-msgstr ""
+msgstr "Nepavyko atverti šaltinio failo."
 
 #: src/ViewerTab.cpp:98
 #, kde-format
 msgid "Not a PC Stitch Pattern Viewer file."
-msgstr ""
+msgstr "Nėra kompiuterinio siuvinėjimo rašto žiūryklės failas."
 
 #: src/ViewerTab.cpp:131
 #, kde-format
 msgid "Failed to create PDF from data."
-msgstr ""
+msgstr "Nepavyko sukurti PDF failo iš duomenų."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/ViewerTab.ui:54
 #, kde-format
 msgid "Designed by"
-msgstr ""
+msgstr "Suprojektavo"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/ViewerTab.ui:80
 #, kde-format
 msgid "Copyright"
-msgstr ""
+msgstr "Autorių teisės"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: ui/ViewerTab.ui:106
 #, kde-format
 msgid "Licensed to"
-msgstr ""
+msgstr "Licenciją turi"
