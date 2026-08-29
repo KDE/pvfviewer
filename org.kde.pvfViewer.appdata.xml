@@ -48,6 +48,7 @@
   <summary xml:lang="ar">عارض أنماط الغرز بالحاسوب الشخصي</summary>
   <summary xml:lang="ca">Un visualitzador de fitxers de patrons del PC Stitch</summary>
   <summary xml:lang="ca-valencia">Un visor de fitxers de patrons del PC Stitch</summary>
+  <summary xml:lang="cs">Prohlížeč souborů vyšívacích vzorů PC Stitch</summary>
   <summary xml:lang="de">Ein Anzeigeprogramm für PC-Kreuzstich-Muster</summary>
   <summary xml:lang="en-GB">A PC Stitch Pattern Viewer File viewer</summary>
   <summary xml:lang="eo">Rigardilo por PC-Stitch Pattern Viewer File (ŝablonvidila dosiero)</summary>
@@ -85,6 +86,7 @@
     <p xml:lang="ar">عارض الغرز هو برنامج لعرض وطباعة ملفات PC Stitch Pattern Viewer التي تحتوي على ملحق .pvf.</p>
     <p xml:lang="ca">El «pvfViewer» és un programa per a visualitzar i imprimir fitxers del visualitzador de patrons del PC Stitch que tinguin una extensió «.pvf».</p>
     <p xml:lang="ca-valencia">«pvfViewer» és un programa per a visualitzar i imprimir fitxers del visor de patrons del PC Stitch que tinguen una extensió «.pvf».</p>
+    <p xml:lang="cs">pvfViewer je program určený k prohlížení a tisku souborů vyšívacích vzorů PC Stitch s příponou .pvf.</p>
     <p xml:lang="de">pvfViewer ist ein Programm zum Anzeigen und Drucken von PC-Kreuzstich-Muster-Dateien mit der Erweiterung .pvf.</p>
     <p xml:lang="en-GB">pvfViewer is a program to view and print PC Stitch Pattern Viewer files having a .pvf extension.</p>
     <p xml:lang="eo">pvfViewer estas programo por rigardi kaj presi PC-Stitch Pattern Viewer-dosierojn havante finaĵon .pvf.</p>
@@ -160,6 +162,7 @@
       <li xml:lang="ar">عرض الصورة المصغرة لملف النمط</li>
       <li xml:lang="ca">Visualització de miniatures de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Vista de miniatures de fitxers de patrons</li>
+      <li xml:lang="cs">Zobrazení náhledu souboru vzoru</li>
       <li xml:lang="de">Anzeige von Vorschaubildern aus einer Musterdatei</li>
       <li xml:lang="en-GB">Viewing of pattern file thumbnail</li>
       <li xml:lang="eo">Rigardo al bildeto de ŝablondosiero</li>
@@ -197,6 +200,7 @@
       <li xml:lang="ar">معاينة صفحات ملفات الأنماط</li>
       <li xml:lang="ca">Vista prèvia de pàgines de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Vista prèvia de pàgines de fitxers de patrons</li>
+      <li xml:lang="cs">Náhled stránek se soubory vzorů</li>
       <li xml:lang="de">Anzeige von Seiten aus einer Musterdatei</li>
       <li xml:lang="en-GB">Preview of pattern file pages</li>
       <li xml:lang="eo">Antaŭrigardo de ŝablondosierpaĝoj</li>
@@ -233,6 +237,7 @@
       <li xml:lang="ar">طباعة صفحات ملفات الأنماط</li>
       <li xml:lang="ca">Impressió de pàgines de fitxers de patrons</li>
       <li xml:lang="ca-valencia">Impressió de pàgines de fitxers de patrons</li>
+      <li xml:lang="cs">Tisk stránek se soubory vzorů</li>
       <li xml:lang="de">Ausdruck von Seiten aus einer Musterdatei</li>
       <li xml:lang="en-GB">Printing of pattern file pages</li>
       <li xml:lang="eo">Presado de ŝablonodosierpaĝoj</li>
